@@ -1,0 +1,15 @@
+# common start
+.class=com.sun.kvem.sensor.impl.DefaultGuiChannelProxy
+.dependents=SensorProxyServer.SunSpotSensorProxy
+.parent-add-method=addChannel
+
+unit=g
+initValue=0
+dataType=1
+accuracy=0
+smallest=-2
+largest=2
+resolution=0
+# common end
+
+name=axisX

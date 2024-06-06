@@ -1,0 +1,514 @@
+ pisces
+
+ Timestamp is 4c3f4853 (Thu Jul 15 10:41:39 2010)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000192e8H .text                   CODE
+ 0002:00000000 00000034H .idata$5                DATA
+ 0002:00000038 00000200H .rdata                  DATA
+ 0002:00000240 00000004H .rdata$sxdata           DATA
+ 0002:00000244 00000004H .rtc$IAA                DATA
+ 0002:00000248 00000004H .rtc$IZZ                DATA
+ 0002:0000024c 00000004H .rtc$TAA                DATA
+ 0002:00000250 00000004H .rtc$TZZ                DATA
+ 0002:00000254 00000028H .idata$2                DATA
+ 0002:0000027c 00000014H .idata$3                DATA
+ 0002:00000290 00000034H .idata$4                DATA
+ 0002:000002c4 000000b6H .idata$6                DATA
+ 0002:00000380 00000e72H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 00001a74H .data                   DATA
+ 0003:00001a84 000000a4H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0001:000002a0       _surface_get               100012a0 f   JAbstractSurface.obj
+ 0001:000002c0       _Java_com_sun_pisces_AbstractSurface_getWidth 100012c0 f   JAbstractSurface.obj
+ 0001:000002e0       _Java_com_sun_pisces_AbstractSurface_getHeight 100012e0 f   JAbstractSurface.obj
+ 0001:00000300       _Java_com_sun_pisces_AbstractSurface_getRGB 10001300 f   JAbstractSurface.obj
+ 0001:00000610       _surface_initialize        10001610 f   JAbstractSurface.obj
+ 0001:00000660       _Java_com_sun_pisces_AbstractSurface_nativeFinalize 10001660 f   JAbstractSurface.obj
+ 0001:00000680       _Java_com_sun_pisces_AbstractSurface_setRGB 10001680 f   JAbstractSurface.obj
+ 0001:000007f0       _Java_com_sun_pisces_AbstractSurface_drawSurfaceImpl 100017f0 f   JAbstractSurface.obj
+ 0001:000009b0       _Java_com_sun_pisces_AbstractSurface_drawRGBImpl 100019b0 f   JAbstractSurface.obj
+ 0001:00000b20       _Java_com_sun_pisces_JavaSurface_resizeNative 10001b20 f   JJavaSurface.obj
+ 0001:00000c00       _Java_com_sun_pisces_JavaSurface_initialize 10001c00 f   JJavaSurface.obj
+ 0001:00000d50       _initializeFieldIds        10001d50 f   JNIUtil.obj
+ 0001:00000db0       _initializeStaticFieldIds  10001db0 f   JNIUtil.obj
+ 0001:00000e10       _JNI_ThrowNew              10001e10 f   JNIUtil.obj
+ 0001:00000ee0       _Java_com_sun_pisces_NativeSurface_initialize 10001ee0 f   JNativeSurface.obj
+ 0001:00001030       _Java_com_sun_pisces_NativeSurface_clean 10002030 f   JNativeSurface.obj
+ 0001:00002a40       _Java_com_sun_pisces_PiscesRenderer_staticInitialize 10003a40 f   JPiscesRenderer.obj
+ 0001:00002aa0       _Java_com_sun_pisces_PiscesRenderer_nativeSetSurface 10003aa0 f   JPiscesRenderer.obj
+ 0001:00002af0       _Java_com_sun_pisces_PiscesRenderer_setClip 10003af0 f   JPiscesRenderer.obj
+ 0001:00002b60       _Java_com_sun_pisces_PiscesRenderer_resetClip 10003b60 f   JPiscesRenderer.obj
+ 0001:00002bc0       _Java_com_sun_pisces_PiscesRenderer_setTransform__Lcom_sun_pisces_Transform6_2 10003bc0 f   JPiscesRenderer.obj
+ 0001:00002c20       _Java_com_sun_pisces_PiscesRenderer_setTransform__IIIIII 10003c20 f   JPiscesRenderer.obj
+ 0001:00002ca0       _Java_com_sun_pisces_PiscesRenderer_getTransformImpl 10003ca0 f   JPiscesRenderer.obj
+ 0001:00002cf0       _Java_com_sun_pisces_PiscesRenderer_setCompositeRule 10003cf0 f   JPiscesRenderer.obj
+ 0001:00002d80       _Java_com_sun_pisces_PiscesRenderer_setComposite 10003d80 f   JPiscesRenderer.obj
+ 0001:00002dd0       _Java_com_sun_pisces_PiscesRenderer_getCompositeRule 10003dd0 f   JPiscesRenderer.obj
+ 0001:00002e00       _Java_com_sun_pisces_PiscesRenderer_getCompositeAlpha 10003e00 f   JPiscesRenderer.obj
+ 0001:00002e50       _Java_com_sun_pisces_PiscesRenderer_cacheComposite 10003e50 f   JPiscesRenderer.obj
+ 0001:00002e90       _Java_com_sun_pisces_PiscesRenderer_setCachedComposite 10003e90 f   JPiscesRenderer.obj
+ 0001:00002ed0       _Java_com_sun_pisces_PiscesRenderer_getAntialiasing 10003ed0 f   JPiscesRenderer.obj
+ 0001:00002f20       _Java_com_sun_pisces_PiscesRenderer_moveTo 10003f20 f   JPiscesRenderer.obj
+ 0001:00002fb0       _Java_com_sun_pisces_PiscesRenderer_lineJoin 10003fb0 f   JPiscesRenderer.obj
+ 0001:00003000       _Java_com_sun_pisces_PiscesRenderer_lineTo 10004000 f   JPiscesRenderer.obj
+ 0001:00003060       _Java_com_sun_pisces_PiscesRenderer_quadTo 10004060 f   JPiscesRenderer.obj
+ 0001:000030d0       _Java_com_sun_pisces_PiscesRenderer_cubicTo 100040d0 f   JPiscesRenderer.obj
+ 0001:00003140       _Java_com_sun_pisces_PiscesRenderer_close 10004140 f   JPiscesRenderer.obj
+ 0001:00003190       _Java_com_sun_pisces_PiscesRenderer_end 10004190 f   JPiscesRenderer.obj
+ 0001:00003210       _Java_com_sun_pisces_PiscesRenderer_getBoundingBox 10004210 f   JPiscesRenderer.obj
+ 0001:00003290       _Java_com_sun_pisces_PiscesRenderer_setPathData 10004290 f   JPiscesRenderer.obj
+ 0001:00003590       _renderer_get              10004590 f   JPiscesRenderer.obj
+ 0001:00003770       _Java_com_sun_pisces_StrokerParameters_initialize 10004770 f   JPiscesRenderer.obj
+ 0001:000037d0       _pisces_stroke_parameters_finalize 100047d0 f   JPiscesRenderer.obj
+ 0001:00003840       _Java_com_sun_pisces_StrokerParameters_finalize 10004840 f   JPiscesRenderer.obj
+ 0001:00003880       _Java_com_sun_pisces_StrokerParameters_updateNativeStrokerParameters 10004880 f   JPiscesRenderer.obj
+ 0001:000047f0       _Java_com_sun_pisces_PiscesRenderer_nativeFinalize 100057f0 f   JPiscesRenderer.obj
+ 0001:00004860       _Java_com_sun_pisces_PiscesRenderer_setStrokeFromParameters 10005860 f   JPiscesRenderer.obj
+ 0001:000048e0       _Java_com_sun_pisces_PiscesRenderer_setStrokeImplNoParam 100058e0 f   JPiscesRenderer.obj
+ 0001:00004940       _Java_com_sun_pisces_PiscesRenderer_setFill 10005940 f   JPiscesRenderer.obj
+ 0001:000049c0       _Java_com_sun_pisces_PiscesRenderer_setColor 100059c0 f   JPiscesRenderer.obj
+ 0001:00004a60       _Java_com_sun_pisces_PiscesRenderer_setTextureImpl 10005a60 f   JPiscesRenderer.obj
+ 0001:00004c30       _Java_com_sun_pisces_PiscesRenderer_setAntialiasing 10005c30 f   JPiscesRenderer.obj
+ 0001:00004ca0       _Java_com_sun_pisces_PiscesPath_nativeFinalize 10005ca0 f   JPiscesRenderer.obj
+ 0001:00004e60       _Java_com_sun_pisces_PiscesRenderer_initialize 10005e60 f   JPiscesRenderer.obj
+ 0001:00005b10       _Java_com_sun_pisces_PiscesRenderer_beginRenderingIIIII 10006b10 f   JPiscesRenderer.obj
+ 0001:00005bc0       _Java_com_sun_pisces_PiscesRenderer_beginRenderingI 10006bc0 f   JPiscesRenderer.obj
+ 0001:00005c60       _Java_com_sun_pisces_PiscesRenderer_endRendering 10006c60 f   JPiscesRenderer.obj
+ 0001:00005d30       _Java_com_sun_pisces_PiscesRenderer_clearRect 10006d30 f   JPiscesRenderer.obj
+ 0001:00005dd0       _Java_com_sun_pisces_PiscesRenderer_drawLine 10006dd0 f   JPiscesRenderer.obj
+ 0001:00005ea0       _Java_com_sun_pisces_PiscesRenderer_fillPath2D 10006ea0 f   JPiscesRenderer.obj
+ 0001:00006790       _Java_com_sun_pisces_PiscesRenderer_drawRect 10007790 f   JPiscesRenderer.obj
+ 0001:00006830       _Java_com_sun_pisces_PiscesRenderer_fillRect 10007830 f   JPiscesRenderer.obj
+ 0001:000068e0       _Java_com_sun_pisces_PiscesRenderer_drawOval 100078e0 f   JPiscesRenderer.obj
+ 0001:00006980       _Java_com_sun_pisces_PiscesRenderer_fillOval 10007980 f   JPiscesRenderer.obj
+ 0001:00006a20       _Java_com_sun_pisces_PiscesRenderer_drawRoundRect 10007a20 f   JPiscesRenderer.obj
+ 0001:00006ad0       _Java_com_sun_pisces_PiscesRenderer_fillRoundRect 10007ad0 f   JPiscesRenderer.obj
+ 0001:00006b80       _Java_com_sun_pisces_PiscesRenderer_drawArc 10007b80 f   JPiscesRenderer.obj
+ 0001:00006c30       _Java_com_sun_pisces_PiscesRenderer_fillArc 10007c30 f   JPiscesRenderer.obj
+ 0001:00006ce0       _Java_com_sun_pisces_PiscesRenderer_drawPath 10007ce0 f   JPiscesRenderer.obj
+ 0001:00006d00       _Java_com_sun_pisces_PiscesRenderer_fillPath 10007d00 f   JPiscesRenderer.obj
+ 0001:00006d20       _transform_get4            10007d20 f   JTransform.obj
+ 0001:00006d90       _transform_get6            10007d90 f   JTransform.obj
+ 0001:00006e20       _transform_set4            10007e20 f   JTransform.obj
+ 0001:00006e90       _transform_set6            10007e90 f   JTransform.obj
+ 0001:00006f70       _Java_com_sun_pisces_Transform6_initialize 10007f70 f   JTransform.obj
+ 0001:00007010       _genLinearGradientPaint    10008010 f   PiscesBlit.obj
+ 0001:000071f0       _genRadialGradientPaint    100081f0 f   PiscesBlit.obj
+ 0001:000077c0       _clearRect8888             100087c0 f   PiscesBlit.obj
+ 0001:000078e0       _clearRect5658             100088e0 f   PiscesBlit.obj
+ 0001:00007a50       _clearRect565              10008a50 f   PiscesBlit.obj
+ 0001:00007b60       _clearRect8                10008b60 f   PiscesBlit.obj
+ 0001:00007e30       _blendSrcOver5658          10008e30 f   PiscesBlit.obj
+ 0001:00008000       _blendSrcOver565           10009000 f   PiscesBlit.obj
+ 0001:00008700       _interp                    10009700 f   PiscesBlit.obj
+ 0001:00008720       _fillRectSrcOver           10009720 f   PiscesBlit.obj
+ 0001:00009450       _blitSrc888                1000a450 f   PiscesBlit.obj
+ 0001:00009640       _blitSrc8888_pre           1000a640 f   PiscesBlit.obj
+ 0001:000097e0       _blitSrc8888               1000a7e0 f   PiscesBlit.obj
+ 0001:00009980       _blitSrc5658               1000a980 f   PiscesBlit.obj
+ 0001:00009b50       _blitSrc565                1000ab50 f   PiscesBlit.obj
+ 0001:00009d20       _blitSrc8                  1000ad20 f   PiscesBlit.obj
+ 0001:00009ea0       _blitPTSrc888              1000aea0 f   PiscesBlit.obj
+ 0001:0000a0a0       _blitPTSrc8888             1000b0a0 f   PiscesBlit.obj
+ 0001:0000a290       _blitPTSrc5658             1000b290 f   PiscesBlit.obj
+ 0001:0000a4d0       _blitPTSrc8888_pre         1000b4d0 f   PiscesBlit.obj
+ 0001:0000a730       _blitPTSrc565              1000b730 f   PiscesBlit.obj
+ 0001:0000a930       _blitPTSrc8                1000b930 f   PiscesBlit.obj
+ 0001:0000aae0       _blitSrcOver888            1000bae0 f   PiscesBlit.obj
+ 0001:0000ace0       _blitSrcOver8888           1000bce0 f   PiscesBlit.obj
+ 0001:0000ae70       _blitSrcOver5658           1000be70 f   PiscesBlit.obj
+ 0001:0000b020       _blitSrcOver8888_pre       1000c020 f   PiscesBlit.obj
+ 0001:0000b1a0       _blitSrcOver565            1000c1a0 f   PiscesBlit.obj
+ 0001:0000b380       _blitSrcOver8              1000c380 f   PiscesBlit.obj
+ 0001:0000b510       _interpolate4points        1000c510 f   PiscesBlit.obj
+ 0001:0000b6a0       _interpolate4pointsNoAlpha 1000c6a0 f   PiscesBlit.obj
+ 0001:0000b7d0       _genTexturePaint           1000c7d0 f   PiscesBlit.obj
+ 0001:0000bfa0       _genTexturePaint565NoAlpha 1000cfa0 f   PiscesBlit.obj
+ 0001:0000c520       _genTexturePaint565WithAlpha 1000d520 f   PiscesBlit.obj
+ 0001:0000cb70       _blitPTSrcOver888          1000db70 f   PiscesBlit.obj
+ 0001:0000cd90       _blitPTSrcOver8888         1000dd90 f   PiscesBlit.obj
+ 0001:0000cf40       _blitPTSrcOver5658         1000df40 f   PiscesBlit.obj
+ 0001:0000d160       _blitPTSrcOver8888_pre     1000e160 f   PiscesBlit.obj
+ 0001:0000d3c0       _blitPTSrcOver565          1000e3c0 f   PiscesBlit.obj
+ 0001:0000d600       _blitPTSrcOver8            1000e600 f   PiscesBlit.obj
+ 0001:0000d8d0       _correctLeftDimension      1000e8d0 f   PiscesImageRenderer.obj
+ 0001:0000da80       _correctRightDimension     1000ea80 f   PiscesImageRenderer.obj
+ 0001:0000dc20       _correctDimensions         1000ec20 f   PiscesImageRenderer.obj
+ 0001:0000dca0       _blitTextureRow            1000eca0 f   PiscesImageRenderer.obj
+ 0001:0000dec0       _blitTextureRowNoAlpha     1000eec0 f   PiscesImageRenderer.obj
+ 0001:0000e0b0       _blitTextureRowNoAlphaAndCA 1000f0b0 f   PiscesImageRenderer.obj
+ 0001:0000e310       _blitTextureRowNoAlphaRowAA 1000f310 f   PiscesImageRenderer.obj
+ 0001:0000e5b0       _blitTextureRowAA          1000f5b0 f   PiscesImageRenderer.obj
+ 0001:0000e810       _detectRectangle           1000f810 f   PiscesImageRenderer.obj
+ 0001:0000f160       _haveCrossing              10010160 f   PiscesImageRenderer.obj
+ 0001:0000f510       _hasCrossingWithBBox       10010510 f   PiscesImageRenderer.obj
+ 0001:0000f5c0       _ht_moveTo                 100105c0 f   PiscesImageRenderer.obj
+ 0001:0000f5e0       _ht_lineTo                 100105e0 f   PiscesImageRenderer.obj
+ 0001:0000f670       _ht_close                  10010670 f   PiscesImageRenderer.obj
+ 0001:0000f690       _ht_containsPoint          10010690 f   PiscesImageRenderer.obj
+ 0001:0000f6a0       _hitTestPoint              100106a0 f   PiscesImageRenderer.obj
+ 0001:0000f730       _intersectsClip            10010730 f   PiscesImageRenderer.obj
+ 0001:0000f930       _interpolate4_565RGBpointsNoAlpha 10010930 f   PiscesImageRenderer.obj
+ 0001:0000fa20       _interpolate4_5658points   10010a20 f   PiscesImageRenderer.obj
+ 0001:0000fbb0       _blitTextureWithAlpha      10010bb0 f   PiscesImageRenderer.obj
+ 0001:0000fd00       _blitTextureWithAlphaAndCA 10010d00 f   PiscesImageRenderer.obj
+ 0001:0000fd80       _blitTextureWithoutAlpha   10010d80 f   PiscesImageRenderer.obj
+ 0001:0000fed0       _blitTextureWithoutAlphaAndCA 10010ed0 f   PiscesImageRenderer.obj
+ 0001:00010020       _blit5658TextureRow        10011020 f   PiscesImageRenderer.obj
+ 0001:00010220       _blit5658TextureRowTo5658  10011220 f   PiscesImageRenderer.obj
+ 0001:000104b0       _blit565RGBTextureRowNoAlpha 100114b0 f   PiscesImageRenderer.obj
+ 0001:00010660       _blit565RGBTextureRowNoAlphaTo5658 10011660 f   PiscesImageRenderer.obj
+ 0001:00010880       _blit565RGBTextureRowNoAlphaAndCA 10011880 f   PiscesImageRenderer.obj
+ 0001:00010a60       _blit565RGBTextureRowNoAlphaAndCATo5658 10011a60 f   PiscesImageRenderer.obj
+ 0001:00010c80       _blit565RGBTextureRowNoAlphaRowAA 10011c80 f   PiscesImageRenderer.obj
+ 0001:00010eb0       _blit565RGBTextureRowNoAlphaRowAATo5658 10011eb0 f   PiscesImageRenderer.obj
+ 0001:00011120       _blit5658TextureRowAA      10012120 f   PiscesImageRenderer.obj
+ 0001:000113e0       _blit5658TextureRowAATo5658 100123e0 f   PiscesImageRenderer.obj
+ 0001:00011840       _blit5658TextureWithAlpha  10012840 f   PiscesImageRenderer.obj
+ 0001:00011990       _blit5658TextureWithAlphaTo5658 10012990 f   PiscesImageRenderer.obj
+ 0001:00011ae0       _blit5658TextureWithAlphaAndCA 10012ae0 f   PiscesImageRenderer.obj
+ 0001:00011b60       _blit5658TextureWithAlphaAndCATo5658 10012b60 f   PiscesImageRenderer.obj
+ 0001:00011be0       _blit565RGBTextureWithoutAlpha 10012be0 f   PiscesImageRenderer.obj
+ 0001:00011d30       _blit565RGBTextureWithoutAlphaTo5658 10012d30 f   PiscesImageRenderer.obj
+ 0001:00011e80       _blit565RGBTextureWithoutAlphaAndCA 10012e80 f   PiscesImageRenderer.obj
+ 0001:00011fd0       _blit565RGBTextureWithoutAlphaAndCATo5658 10012fd0 f   PiscesImageRenderer.obj
+ 0001:000121b0       _calculateCoverageAndRender 100131b0 f   PiscesImageRenderer.obj
+ 0001:000127e0       _imageRenderer_drawRectangularImage 100137e0 f   PiscesImageRenderer.obj
+ 0001:00013130       _pisces_moduleInitialize   10014130 f   PiscesLibrary.obj
+ 0001:00013170       _pisces_moduleFinalize     10014170 f   PiscesLibrary.obj
+ 0001:00013190       _piscesmath_moduleInitialize 10014190 f   PiscesMath.obj
+ 0001:000131f0       _piscesmath_moduleFinalize 100141f0 f   PiscesMath.obj
+ 0001:00013210       _piscesmath_sin            10014210 f   PiscesMath.obj
+ 0001:00013290       _piscesmath_cos            10014290 f   PiscesMath.obj
+ 0001:000132b0       _piscesmath_isqrt          100142b0 f   PiscesMath.obj
+ 0001:000132e0       _piscesmath_lsqrt          100142e0 f   PiscesMath.obj
+ 0001:00013380       _piscesmath_dhypot         10014380 f   PiscesMath.obj
+ 0001:000133a0       _piscesmath_ihypot         100143a0 f   PiscesMath.obj
+ 0001:000133f0       _piscesmath_lhypot         100143f0 f   PiscesMath.obj
+ 0001:00013440       _piscesmath_toRadians      10014440 f   PiscesMath.obj
+ 0001:00013470       _piscesmath_toDegrees      10014470 f   PiscesMath.obj
+ 0001:000134a0       _piscesmath_abs            100144a0 f   PiscesMath.obj
+ 0001:000134b0       _piscesmath_ceil           100144b0 f   PiscesMath.obj
+ 0001:000134f0       _piscesmath_btan           100144f0 f   PiscesMath.obj
+ 0001:000135a0       _piscesmath_asin           100145a0 f   PiscesMath.obj
+ 0001:000135f0       _piscesmath_mod            100145f0 f   PiscesMath.obj
+ 0001:00013660       _piscesmath_acos           10014660 f   PiscesMath.obj
+ 0001:000136f0       _path_new                  100146f0 f   PiscesPath.obj
+ 0001:00013710       _path_delete               10014710 f   PiscesPath.obj
+ 0001:000137b0       _path_cacheFloatData       100147b0 f   PiscesPath.obj
+ 0001:00013990       _pipeline_free             10014990 f   PiscesPipelines.obj
+ 0001:000139b0       _bbox_reset                100149b0 f   PiscesPipelines.obj
+ 0001:000139e0       _bbox_get                  100149e0 f   PiscesPipelines.obj
+ 0001:000156b0       _pipeline_initializeFiller 100166b0 f   PiscesPipelines.obj
+ 0001:000156f0       _pipeline_initializeStroker 100166f0 f   PiscesPipelines.obj
+ 0001:00015770       _pipeline_setFillerParameters 10016770 f   PiscesPipelines.obj
+ 0001:00015780       _transformer_moveTo        10016780 f   PiscesPipelines.obj
+ 0001:000158a0       _transformer_lineJoin      100168a0 f   PiscesPipelines.obj
+ 0001:000158b0       _transformer_lineTo        100168b0 f   PiscesPipelines.obj
+ 0001:000159e0       _transformer_hlineTo       100169e0 f   PiscesPipelines.obj
+ 0001:00015b10       _transformer_vlineTo       10016b10 f   PiscesPipelines.obj
+ 0001:00015c30       _transformer_close         10016c30 f   PiscesPipelines.obj
+ 0001:00015c50       _transformer_end           10016c50 f   PiscesPipelines.obj
+ 0001:00016d20       _transformer_quadTo        10017d20 f   PiscesPipelines.obj
+ 0001:00016f70       _transformer_cubicTo       10017f70 f   PiscesPipelines.obj
+ 0001:00017500       _pipeline_initializeHitTester 10018500 f   PiscesPipelines.obj
+ 0001:000175a0       _pipeline_initializeBBox   100185a0 f   PiscesPipelines.obj
+ 0001:00017610       _transformer_arcTo         10018610 f   PiscesPipelines.obj
+ 0001:00017f50       _pipeline_setStrokerParameters 10018f50 f   PiscesPipelines.obj
+ 0001:00018030       _pipeline_setHitTesterParameters 10019030 f   PiscesPipelines.obj
+ 0001:00018130       _prenderer_moveTo          10019130 f   PiscesRenderer.obj
+ 0001:00018170       _prenderer_lineJoin        10019170 f   PiscesRenderer.obj
+ 0001:00018180       _prenderer_end             10019180 f   PiscesRenderer.obj
+ 0001:00018340       _prenderer_lineTo          10019340 f   PiscesRenderer.obj
+ 0001:00018360       _prenderer_close           10019360 f   PiscesRenderer.obj
+ 0001:000183b0       _pisces_stroke_parameters_new 100193b0 f   PiscesStrokeParameters.obj
+ 0001:00018470       _pisces_stroke_parameters_delete 10019470 f   PiscesStrokeParameters.obj
+ 0001:000184d0       _pisces_stroke_parameters_update 100194d0 f   PiscesStrokeParameters.obj
+ 0001:00018870       _pisces_stroke_parameters_transform_changed 10019870 f   PiscesStrokeParameters.obj
+ 0001:000188e0       _setMemErrorFlag           100198e0 f   PiscesSysutils.obj
+ 0001:000188f0       _readAndClearMemErrorFlag  100198f0 f   PiscesSysutils.obj
+ 0001:00018910       _readMemErrorFlag          10019910 f   PiscesSysutils.obj
+ 0001:00018920       _pisces_transform_assign   10019920 f   PiscesTransform.obj
+ 0001:00018950       _pisces_transform_invert   10019950 f   PiscesTransform.obj
+ 0001:00018a70       _pisces_transform_multiply 10019a70 f   PiscesTransform.obj
+ 0001:00018d40       _pisces_transform_equals   10019d40 f   PiscesTransform.obj
+ 0001:00018da0       _piscesutil_setStrokeBias  10019da0 f   PiscesUtil.obj
+ 0001:00018dc0       __allmul                   10019dc0 f   MSVCRT:llmul.obj
+ 0001:00018e00       __alldiv                   10019e00 f   MSVCRT:lldiv.obj
+ 0001:00018eb0       __allshr                   10019eb0 f   MSVCRT:llshr.obj
+ 0001:00018ed4       __ftol2                    10019ed4 f   MSVCRT:ftol2.obj
+ 0001:00018f50       __allrem                   10019f50 f   MSVCRT:llrem.obj
+ 0001:00019002       __CRT_INIT@12              1001a002 f   MSVCRT:crtdll.obj
+ 0001:000190c0       __DllMainCRTStartup@12     1001a0c0 f   MSVCRT:crtdll.obj
+ 0001:000191a4       __initterm                 1001a1a4 f   MSVCRT:MSVCR71.dll
+ 0001:000191aa       __onexit                   1001a1aa f   MSVCRT:atonexit.obj
+ 0001:000191d0       _atexit                    1001a1d0 f   MSVCRT:atonexit.obj
+ 0001:000191e2       __RTC_Initialize           1001a1e2 f   MSVCRT:initsect.obj
+ 0001:00019226       __RTC_Terminate            1001a226 f   MSVCRT:initsect.obj
+ 0001:0001926a       ___CppXcptFilter           1001a26a f   MSVCRT:MSVCR71.dll
+ 0001:00019270       _DllMain@12                1001a270 f   MSVCRT:dllmain.obj
+ 0001:00019290       __SEH_prolog               1001a290 f   MSVCRT:sehprolg.obj
+ 0001:000192cb       __SEH_epilog               1001a2cb f   MSVCRT:sehprolg.obj
+ 0001:000192dc       __except_handler3          1001a2dc f   MSVCRT:MSVCR71.dll
+ 0001:000192e2       ___dllonexit               1001a2e2 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__DisableThreadLibraryCalls@4 1001b000     kernel32:KERNEL32.dll
+ 0002:00000004       \177KERNEL32_NULL_THUNK_DATA 1001b004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__malloc              1001b008     MSVCRT:MSVCR71.dll
+ 0002:0000000c       __imp__realloc             1001b00c     MSVCRT:MSVCR71.dll
+ 0002:00000010       __imp___initterm           1001b010     MSVCRT:MSVCR71.dll
+ 0002:00000014       __imp___adjust_fdiv        1001b014     MSVCRT:MSVCR71.dll
+ 0002:00000018       __imp__calloc              1001b018     MSVCRT:MSVCR71.dll
+ 0002:0000001c       __imp___except_handler3    1001b01c     MSVCRT:MSVCR71.dll
+ 0002:00000020       __imp____dllonexit         1001b020     MSVCRT:MSVCR71.dll
+ 0002:00000024       __imp___onexit             1001b024     MSVCRT:MSVCR71.dll
+ 0002:00000028       __imp____CppXcptFilter     1001b028     MSVCRT:MSVCR71.dll
+ 0002:0000002c       __imp__free                1001b02c     MSVCRT:MSVCR71.dll
+ 0002:00000030       \177MSVCR71_NULL_THUNK_DATA 1001b030     MSVCRT:MSVCR71.dll
+ 0002:00000048       __real@43800000            1001b048     JAbstractSurface.obj
+ 0002:0000004c       __real@00000000            1001b04c     JAbstractSurface.obj
+ 0002:00000088       __real@3f000000            1001b088     JPiscesRenderer.obj
+ 0002:0000008c       __real@3f800000            1001b08c     JPiscesRenderer.obj
+ 0002:00000090       __real@40f0000000000000    1001b090     JPiscesRenderer.obj
+ 0002:00000098       __real@3ff921fb54442d18    1001b098     JPiscesRenderer.obj
+ 0002:000000a0       __real@3ef0000000000000    1001b0a0     JPiscesRenderer.obj
+ 0002:000000a8       __real@47800000            1001b0a8     JPiscesRenderer.obj
+ 0002:000000e8       __real@c000000000000000    1001b0e8     PiscesBlit.obj
+ 0002:000000f0       __real@4190000000000000    1001b0f0     PiscesBlit.obj
+ 0002:000000f8       __real@3ff0000000000000    1001b0f8     PiscesBlit.obj
+ 0002:00000100       __real@3f7851ec            1001b100     PiscesBlit.obj
+ 0002:00000104       __real@3f70a3d7            1001b104     PiscesBlit.obj
+ 0002:00000108       __real@37800000            1001b108     PiscesBlit.obj
+ 0002:0000010c       __real@3de147ae            1001b10c     PiscesBlit.obj
+ 0002:00000110       __real@3f170a3d            1001b110     PiscesBlit.obj
+ 0002:00000114       __real@3e99999a            1001b114     PiscesBlit.obj
+ 0002:00000118       __real@437f0000            1001b118     PiscesImageRenderer.obj
+ 0002:00000120       __real@3f5921fb54442d18    1001b120     PiscesMath.obj
+ 0002:00000128       __real@3ff5555555555555    1001b128     PiscesMath.obj
+ 0002:00000130       __real@3f747ae147ae147b    1001b130     PiscesMath.obj
+ 0002:00000138       __real@4069000000000000    1001b138     PiscesMath.obj
+ 0002:00000140       __real@0000000000000000    1001b140     PiscesMath.obj
+ 0002:00000148       __real@3fc90fdb            1001b148     PiscesMath.obj
+ 0002:0000014c       __real@bfc90fdb            1001b14c     PiscesMath.obj
+ 0002:00000150       __real@bf800000            1001b150     PiscesMath.obj
+ 0002:00000154       __real@bf0d6289            1001b154     PiscesPipelines.obj
+ 0002:00000158       __real@3f0d6289            1001b158     PiscesPipelines.obj
+ 0002:0000015c       __real@3c360b61            1001b15c     PiscesPipelines.obj
+ 0002:00000160       __real@c076800000000000    1001b160     PiscesPipelines.obj
+ 0002:00000168       __real@3c8efa35            1001b168     PiscesPipelines.obj
+ 0002:00000170       __real@4076800000000000    1001b170     PiscesPipelines.obj
+ 0002:00000178       __real@42652ee1            1001b178     PiscesPipelines.obj
+ 0002:00000180       __real@3f91df46a2529d39    1001b180     PiscesPipelines.obj
+ 0002:00000188       __real@401921fb54442d18    1001b188     PiscesStrokeParameters.obj
+ 0002:00000190       __real@bfe0000000000000    1001b190     PiscesStrokeParameters.obj
+ 0002:00000198       __real@3fe0000000000000    1001b198     PiscesStrokeParameters.obj
+ 0002:000001a0       __real@3febb67ae6502b91    1001b1a0     PiscesStrokeParameters.obj
+ 0002:000001a8       __real@40e0000000000000    1001b1a8     PiscesStrokeParameters.obj
+ 0002:000001b0       __real@38490fd0            1001b1b0     PiscesStrokeParameters.obj
+ 0002:000001b8       __real@41f0000000000000    1001b1b8     PiscesStrokeParameters.obj
+ 0002:000001f0       __load_config_used         1001b1f0     MSVCRT:loadcfg.obj
+ 0002:00000240       ___safe_se_handler_table   1001b240     <linker-defined>
+ 0002:00000244       ___rtc_iaa                 1001b244     MSVCRT:initsect.obj
+ 0002:00000248       ___rtc_izz                 1001b248     MSVCRT:initsect.obj
+ 0002:0000024c       ___rtc_taa                 1001b24c     MSVCRT:initsect.obj
+ 0002:00000250       ___rtc_tzz                 1001b250     MSVCRT:initsect.obj
+ 0002:00000254       __IMPORT_DESCRIPTOR_MSVCR71 1001b254     MSVCRT:MSVCR71.dll
+ 0002:00000268       __IMPORT_DESCRIPTOR_KERNEL32 1001b268     kernel32:KERNEL32.dll
+ 0002:0000027c       __NULL_IMPORT_DESCRIPTOR   1001b27c     MSVCRT:MSVCR71.dll
+ 0003:00000000       ___xc_a                    1001d000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    1001d004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    1001d008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1001d00c     MSVCRT:cinitexe.obj
+ 0003:00001a80       ___security_cookie         1001ea80     MSVCRT:seccook.obj
+ 0003:00001b10       _PISCES_STROKE_X_BIAS      1001eb10     <common>
+ 0003:00001b14       _PISCES_STROKE_Y_BIAS      1001eb14     <common>
+ 0003:00001b18       __adjust_fdiv              1001eb18     <common>
+ 0003:00001b1c       ___onexitend               1001eb1c     <common>
+ 0003:00001b20       ___onexitbegin             1001eb20     <common>
+ 0003:00001b24       __pRawDllMain              1001eb24     <common>
+
+ entry point at        0001:000190c0
+
+ Static symbols
+
+ 0001:00000000       _surface_dispose           10001000 f   JAbstractSurface.obj
+ 0001:00000010       _setRGB                    10001010 f   JAbstractSurface.obj
+ 0001:00000070       _drawRGB                   10001070 f   JAbstractSurface.obj
+ 0001:000004b0       _initializeSurfaceFieldIds 100014b0 f   JAbstractSurface.obj
+ 0001:000004f0       _disposeNativeImpl         100014f0 f   JAbstractSurface.obj
+ 0001:00000560       _surface_setRGB            10001560 f   JAbstractSurface.obj
+ 0001:00000590       _surface_drawSurface       10001590 f   JAbstractSurface.obj
+ 0001:000005e0       _surface_drawRGB           100015e0 f   JAbstractSurface.obj
+ 0001:00000b40       _initializeSurfaceFieldIds 10001b40 f   JJavaSurface.obj
+ 0001:00000b80       _surface_acquire           10001b80 f   JJavaSurface.obj
+ 0001:00000bc0       _surface_release           10001bc0 f   JJavaSurface.obj
+ 0001:00000bf0       _surface_cleanup           10001bf0 f   JJavaSurface.obj
+ 0001:00000e60       _initializeSurfaceFieldIds 10001e60 f   JNativeSurface.obj
+ 0001:00000ea0       _surface_acquire           10001ea0 f   JNativeSurface.obj
+ 0001:00000eb0       _surface_release           10001eb0 f   JNativeSurface.obj
+ 0001:00000ec0       _surface_cleanup           10001ec0 f   JNativeSurface.obj
+ 0001:00001080       _renderer_dispose          10002080 f   JPiscesRenderer.obj
+ 0001:00001170       _renderer_getAntialiasing  10002170 f   JPiscesRenderer.obj
+ 0001:00001180       _renderer_setClip          10002180 f   JPiscesRenderer.obj
+ 0001:000011b0       _renderer_resetClip        100021b0 f   JPiscesRenderer.obj
+ 0001:000011e0       _renderer_setTransform     100021e0 f   JPiscesRenderer.obj
+ 0001:00001430       _renderer_getTransform     10002430 f   JPiscesRenderer.obj
+ 0001:00001440       _renderer_setCompositeRule 10002440 f   JPiscesRenderer.obj
+ 0001:00001490       _renderer_setComposite     10002490 f   JPiscesRenderer.obj
+ 0001:00001500       _renderer_moveTo           10002500 f   JPiscesRenderer.obj
+ 0001:00001550       _renderer_lineJoin         10002550 f   JPiscesRenderer.obj
+ 0001:00001560       _renderer_lineTo           10002560 f   JPiscesRenderer.obj
+ 0001:00001580       _renderer_quadTo           10002580 f   JPiscesRenderer.obj
+ 0001:000015b0       _renderer_cubicTo          100025b0 f   JPiscesRenderer.obj
+ 0001:000015e0       _renderer_arcTo            100025e0 f   JPiscesRenderer.obj
+ 0001:00001620       _renderer_hlineTo          10002620 f   JPiscesRenderer.obj
+ 0001:00001640       _renderer_vlineTo          10002640 f   JPiscesRenderer.obj
+ 0001:00001660       _renderer_close            10002660 f   JPiscesRenderer.obj
+ 0001:00001680       _renderer_end              10002680 f   JPiscesRenderer.obj
+ 0001:000016c0       _updateInternalColor       100026c0 f   JPiscesRenderer.obj
+ 0001:00001770       _updatePaintDependedRoutines 10002770 f   JPiscesRenderer.obj
+ 0001:00001850       _setPaintMode              10002850 f   JPiscesRenderer.obj
+ 0001:000018d0       _validateAlphaMap          100028d0 f   JPiscesRenderer.obj
+ 0001:00001a00       _setAntialiasing           10002a00 f   JPiscesRenderer.obj
+ 0001:00001ac0       _beginRenderingImpl        10002ac0 f   JPiscesRenderer.obj
+ 0001:00001b40       _clamp                     10002b40 f   JPiscesRenderer.obj
+ 0001:00001b50       _computeBounds             10002b50 f   JPiscesRenderer.obj
+ 0001:00001c30       _clearAlpha                10002c30 f   JPiscesRenderer.obj
+ 0001:00001ca0       _emitRow                   10002ca0 f   JPiscesRenderer.obj
+ 0001:00001d80       _resetCrossings            10002d80 f   JPiscesRenderer.obj
+ 0001:00001de0       _crossingListFinished      10002de0 f   JPiscesRenderer.obj
+ 0001:00001e90       _sortCrossings3            10002e90 f   JPiscesRenderer.obj
+ 0001:00001ee0       _sortCrossings             10002ee0 f   JPiscesRenderer.obj
+ 0001:00001f40       _addCrossing               10002f40 f   JPiscesRenderer.obj
+ 0001:00001fa0       _iterateCrossings          10002fa0 f   JPiscesRenderer.obj
+ 0001:00001fe0       _hasMoreCrossingRows       10002fe0 f   JPiscesRenderer.obj
+ 0001:00002030       _validateStroker           10003030 f   JPiscesRenderer.obj
+ 0001:00002090       _validateFiller            10003090 f   JPiscesRenderer.obj
+ 0001:000020c0       _emitQuadrants             100030c0 f   JPiscesRenderer.obj
+ 0001:00002170       _emitOval                  10003170 f   JPiscesRenderer.obj
+ 0001:00002310       _emitOffsetOval            10003310 f   JPiscesRenderer.obj
+ 0001:000024f0       _emitRoundRect             100034f0 f   JPiscesRenderer.obj
+ 0001:00002700       _emitArc                   10003700 f   JPiscesRenderer.obj
+ 0001:000027f0       _renderer_emitPath         100037f0 f   JPiscesRenderer.obj
+ 0001:000035b0       _renderer_finalize         100045b0 f   JPiscesRenderer.obj
+ 0001:00003600       _initializeObjectFieldIds  10004600 f   JPiscesRenderer.obj
+ 0001:00003670       _initializePathFieldIds    10004670 f   JPiscesRenderer.obj
+ 0001:000036b0       _initializeStrokeParametersFieldIds 100046b0 f   JPiscesRenderer.obj
+ 0001:00003710       _initializeRendererFieldIds 10004710 f   JPiscesRenderer.obj
+ 0001:00003970       _path_finalize             10004970 f   JPiscesRenderer.obj
+ 0001:000039f0       _renderer_setAntialiasing  100049f0 f   JPiscesRenderer.obj
+ 0001:00003a30       _renderer_setStroke0       10004a30 f   JPiscesRenderer.obj
+ 0001:00003a50       _renderer_setStroke        10004a50 f   JPiscesRenderer.obj
+ 0001:00003a80       _renderer_setFill          10004a80 f   JPiscesRenderer.obj
+ 0001:00003ac0       _renderer_setColor         10004ac0 f   JPiscesRenderer.obj
+ 0001:00003b20       _renderer_setTexture       10004b20 f   JPiscesRenderer.obj
+ 0001:00003e00       _createCommon              10004e00 f   JPiscesRenderer.obj
+ 0001:00003fa0       _updateCompositeDependedRoutines 10004fa0 f   JPiscesRenderer.obj
+ 0001:00004000       _computeCrossingsForEdge   10005000 f   JPiscesRenderer.obj
+ 0001:00004190       _renderStrip               10005190 f   JPiscesRenderer.obj
+ 0001:00004710       _setCrossingsExtents       10005710 f   JPiscesRenderer.obj
+ 0001:00004cd0       _renderer_create           10005cd0 f   JPiscesRenderer.obj
+ 0001:00004ce0       _updateSurfaceDependedRoutines 10005ce0 f   JPiscesRenderer.obj
+ 0001:00004ee0       _updateRendererSurface     10005ee0 f   JPiscesRenderer.obj
+ 0001:00004f70       _endRenderingImpl          10005f70 f   JPiscesRenderer.obj
+ 0001:00005430       _renderer_beginRendering1  10006430 f   JPiscesRenderer.obj
+ 0001:000054b0       _renderer_beginRendering5  100064b0 f   JPiscesRenderer.obj
+ 0001:00005550       _renderer_endRendering     10006550 f   JPiscesRenderer.obj
+ 0001:00005590       _renderer_clearRect        10006590 f   JPiscesRenderer.obj
+ 0001:00005670       _renderer_drawLine         10006670 f   JPiscesRenderer.obj
+ 0001:000056c0       _fillOrDrawRect            100066c0 f   JPiscesRenderer.obj
+ 0001:00005720       _fillOrDrawOval            10006720 f   JPiscesRenderer.obj
+ 0001:00005910       _fillOrDrawRoundRect       10006910 f   JPiscesRenderer.obj
+ 0001:000059b0       _fillOrDrawArc             100069b0 f   JPiscesRenderer.obj
+ 0001:00006230       _drawOrFillPath            10007230 f   JPiscesRenderer.obj
+ 0001:000064b0       _renderer_drawRect         100074b0 f   JPiscesRenderer.obj
+ 0001:00006630       _renderer_fillRect         10007630 f   JPiscesRenderer.obj
+ 0001:00006690       _renderer_drawOval         10007690 f   JPiscesRenderer.obj
+ 0001:000066b0       _renderer_fillOval         100076b0 f   JPiscesRenderer.obj
+ 0001:000066d0       _renderer_drawRoundRect    100076d0 f   JPiscesRenderer.obj
+ 0001:00006700       _renderer_fillRoundRect    10007700 f   JPiscesRenderer.obj
+ 0001:00006730       _renderer_drawArc          10007730 f   JPiscesRenderer.obj
+ 0001:00006760       _renderer_fillArc          10007760 f   JPiscesRenderer.obj
+ 0001:00006f30       _initializeTransformFieldIds 10007f30 f   JTransform.obj
+ 0001:00006fc0       _pad                       10007fc0 f   PiscesBlit.obj
+ 0001:00007c20       _blendSrcOver888           10008c20 f   PiscesBlit.obj
+ 0001:00007ca0       _blendSrcOver8888          10008ca0 f   PiscesBlit.obj
+ 0001:00007f70       _blendSrcOver8888_pre      10008f70 f   PiscesBlit.obj
+ 0001:00008070       _blendSrcOver8             10009070 f   PiscesBlit.obj
+ 0001:00008090       _blendSrc8888              10009090 f   PiscesBlit.obj
+ 0001:00008200       _blendSrc5658              10009200 f   PiscesBlit.obj
+ 0001:00008380       _blendSrc8888_pre          10009380 f   PiscesBlit.obj
+ 0001:000084e0       _blendLine                 100094e0 f   PiscesBlit.obj
+ 0001:000086d0       _lmod                      100096d0 f   PiscesBlit.obj
+ 0001:0000d7f0       _updatePaintDependedRoutines 1000e7f0 f   PiscesImageRenderer.obj
+ 0001:0000fb50       _updateCompositeDependedRoutines 10010b50 f   PiscesImageRenderer.obj
+ 0001:000116c0       _updateSurfaceDependedRoutines 100126c0 f   PiscesImageRenderer.obj
+ 0001:00012120       _updateRendererSurface     10013120 f   PiscesImageRenderer.obj
+ 0001:00013520       _findClosestASin           10014520 f   PiscesMath.obj
+ 0001:00013750       _toBoolean                 10014750 f   PiscesPath.obj
+ 0001:00013760       _toPiscesCoords            10014760 f   PiscesPath.obj
+ 0001:00013970       _math_min                  10014970 f   PiscesPipelines.obj
+ 0001:00013980       _math_max                  10014980 f   PiscesPipelines.obj
+ 0001:00013a10       _transformer_setTransform  10014a10 f   PiscesPipelines.obj
+ 0001:00013a80       _flattener_setFlatness     10014a80 f   PiscesPipelines.obj
+ 0001:00013aa0       _flattener_moveTo          10014aa0 f   PiscesPipelines.obj
+ 0001:00013ab0       _flattener_lineJoin        10014ab0 f   PiscesPipelines.obj
+ 0001:00013ac0       _flattener_lineTo          10014ac0 f   PiscesPipelines.obj
+ 0001:00013ae0       _flattener_close           10014ae0 f   PiscesPipelines.obj
+ 0001:00013af0       _flattener_end             10014af0 f   PiscesPipelines.obj
+ 0001:00013b00       _stroker_setParameters     10014b00 f   PiscesPipelines.obj
+ 0001:00013b20       _stroker_lineJoin          10014b20 f   PiscesPipelines.obj
+ 0001:00013b30       _dasher_setParameters      10014b30 f   PiscesPipelines.obj
+ 0001:00013be0       _dasher_lineJoin           10014be0 f   PiscesPipelines.obj
+ 0001:00013bf0       _bbox_lineJoin             10014bf0 f   PiscesPipelines.obj
+ 0001:00013c00       _bbox_close                10014c00 f   PiscesPipelines.obj
+ 0001:00013c10       _bbox_end                  10014c10 f   PiscesPipelines.obj
+ 0001:00013c20       _ht_moveTo                 10014c20 f   PiscesPipelines.obj
+ 0001:00013c50       _ht_lineTo                 10014c50 f   PiscesPipelines.obj
+ 0001:00013d00       _ht_close                  10014d00 f   PiscesPipelines.obj
+ 0001:00013d20       _ht_lineJoin               10014d20 f   PiscesPipelines.obj
+ 0001:00013d30       _ht_end                    10014d30 f   PiscesPipelines.obj
+ 0001:00013d40       _flattener_flatEnough_3    10014d40 f   PiscesPipelines.obj
+ 0001:00013f90       _flattener_quadToHelper    10014f90 f   PiscesPipelines.obj
+ 0001:000140f0       _flattener_flatEnough_4    100150f0 f   PiscesPipelines.obj
+ 0001:000143e0       _flattener_cubicToHelper   100153e0 f   PiscesPipelines.obj
+ 0001:00014650       _stroker_computeOffset     10015650 f   PiscesPipelines.obj
+ 0001:00014810       _stroker_isCCW             10015810 f   PiscesPipelines.obj
+ 0001:00014850       _stroker_side              10015850 f   PiscesPipelines.obj
+ 0001:00014930       _stroker_emitLineTo        10015930 f   PiscesPipelines.obj
+ 0001:000149b0       _stroker_computeRoundJoin  100159b0 f   PiscesPipelines.obj
+ 0001:00014c50       _stroker_drawRoundJoin     10015c50 f   PiscesPipelines.obj
+ 0001:00014d60       _stroker_computeMiter      10015d60 f   PiscesPipelines.obj
+ 0001:00014f50       _stroker_drawMiter         10015f50 f   PiscesPipelines.obj
+ 0001:000150f0       _stroker_lineLength        100160f0 f   PiscesPipelines.obj
+ 0001:00015220       _stroker_finish            10016220 f   PiscesPipelines.obj
+ 0001:00015670       _bbox_checkPoint           10016670 f   PiscesPipelines.obj
+ 0001:00015c60       _flattener_quadTo          10016c60 f   PiscesPipelines.obj
+ 0001:00015c90       _flattener_cubicTo         10016c90 f   PiscesPipelines.obj
+ 0001:00015cc0       _stroker_lineToImpl        10016cc0 f   PiscesPipelines.obj
+ 0001:00015fd0       _stroker_close             10016fd0 f   PiscesPipelines.obj
+ 0001:00016390       _stroker_end               10017390 f   PiscesPipelines.obj
+ 0001:000163f0       _dasher_end                100173f0 f   PiscesPipelines.obj
+ 0001:00016400       _bbox_moveTo               10017400 f   PiscesPipelines.obj
+ 0001:00016450       _bbox_lineTo               10017450 f   PiscesPipelines.obj
+ 0001:000164a0       _flattener_arcTo           100174a0 f   PiscesPipelines.obj
+ 0001:000172e0       _stroker_moveTo            100182e0 f   PiscesPipelines.obj
+ 0001:00017360       _stroker_lineTo            10018360 f   PiscesPipelines.obj
+ 0001:00017420       _dasher_moveTo             10018420 f   PiscesPipelines.obj
+ 0001:00017480       _dasher_goTo               10018480 f   PiscesPipelines.obj
+ 0001:00017cd0       _dasher_lineTo             10018cd0 f   PiscesPipelines.obj
+ 0001:00017f10       _dasher_close              10018f10 f   PiscesPipelines.obj
+ 0001:00018190       _addEdge                   10019190 f   PiscesRenderer.obj
+ 0001:000182e0       _lineToImpl                100192e0 f   PiscesRenderer.obj

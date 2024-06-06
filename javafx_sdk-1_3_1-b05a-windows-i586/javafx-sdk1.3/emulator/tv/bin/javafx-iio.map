@@ -1,0 +1,527 @@
+ javafx-iio
+
+ Timestamp is 4c3f48d4 (Thu Jul 15 10:43:48 2010)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000273fcH .text                   CODE
+ 0002:00000000 00000050H .idata$5                DATA
+ 0002:00000050 00000bf0H .rdata                  DATA
+ 0002:00000c40 00000004H .rdata$sxdata           DATA
+ 0002:00000c44 00000004H .rtc$IAA                DATA
+ 0002:00000c48 00000004H .rtc$IZZ                DATA
+ 0002:00000c4c 00000004H .rtc$TAA                DATA
+ 0002:00000c50 00000004H .rtc$TZZ                DATA
+ 0002:00000c54 00000028H .idata$2                DATA
+ 0002:00000c7c 00000014H .idata$3                DATA
+ 0002:00000c90 00000050H .idata$4                DATA
+ 0002:00000ce0 000000faH .idata$6                DATA
+ 0002:00000de0 000001ddH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 000019e4H .data                   DATA
+ 0003:000019f4 00000030H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0001:00000000       _jpeg_CreateCompress       10001000 f   jcapimin.obj
+ 0001:000000f0       _jpeg_destroy_compress     100010f0 f   jcapimin.obj
+ 0001:00000100       _jpeg_abort_compress       10001100 f   jcapimin.obj
+ 0001:00000110       _jpeg_suppress_tables      10001110 f   jcapimin.obj
+ 0001:00000180       _jpeg_finish_compress      10001180 f   jcapimin.obj
+ 0001:00000290       _jpeg_write_marker         10001290 f   jcapimin.obj
+ 0001:00000310       _jpeg_write_m_header       10001310 f   jcapimin.obj
+ 0001:00000370       _jpeg_write_m_byte         10001370 f   jcapimin.obj
+ 0001:00000390       _jpeg_write_tables         10001390 f   jcapimin.obj
+ 0001:000003e0       _jpeg_start_compress       100013e0 f   jcapistd.obj
+ 0001:00000460       _jpeg_write_scanlines      10001460 f   jcapistd.obj
+ 0001:00000530       _jpeg_write_raw_data       10001530 f   jcapistd.obj
+ 0001:00000e10       _jinit_c_coef_controller   10001e10 f   jccoefct.obj
+ 0001:00001430       _jinit_color_converter     10002430 f   jccolor.obj
+ 0001:00001f20       _jinit_forward_dct         10002f20 f   jcdctmgr.obj
+ 0001:00003bb0       _jinit_huff_encoder        10004bb0 f   jchuff.obj
+ 0001:00003c50       _jinit_compress_master     10004c50 f   jcinit.obj
+ 0001:00003e00       _jinit_c_main_controller   10004e00 f   jcmainct.obj
+ 0001:00004d90       _jinit_marker_writer       10005d90 f   jcmarker.obj
+ 0001:00004df0       _jpeg_calc_jpeg_dimensions 10005df0 f   jcmaster.obj
+ 0001:00005d10       _jinit_c_master_control    10006d10 f   jcmaster.obj
+ 0001:00005dd0       _jpeg_abort                10006dd0 f   jcomapi.obj
+ 0001:00005e10       _jpeg_destroy              10006e10 f   jcomapi.obj
+ 0001:00005e30       _jpeg_alloc_quant_table    10006e30 f   jcomapi.obj
+ 0001:00005e50       _jpeg_alloc_huff_table     10006e50 f   jcomapi.obj
+ 0001:00005e70       _jpeg_add_quant_table      10006e70 f   jcparam.obj
+ 0001:00006040       _jpeg_default_qtables      10007040 f   jcparam.obj
+ 0001:00006080       _jpeg_set_linear_quality   10007080 f   jcparam.obj
+ 0001:000060c0       _jpeg_quality_scaling      100070c0 f   jcparam.obj
+ 0001:00006100       _jpeg_set_quality          10007100 f   jcparam.obj
+ 0001:00006280       _jpeg_set_colorspace       10007280 f   jcparam.obj
+ 0001:00006640       _jpeg_simple_progression   10007640 f   jcparam.obj
+ 0001:000068b0       _jpeg_default_colorspace   100078b0 f   jcparam.obj
+ 0001:00006b60       _jpeg_set_defaults         10007b60 f   jcparam.obj
+ 0001:00007280       _jinit_c_prep_controller   10008280 f   jcprepct.obj
+ 0001:00007b90       _jinit_downsampler         10008b90 f   jcsample.obj
+ 0001:00007d60       _jpeg_copy_critical_parameters 10008d60 f   jctrans.obj
+ 0001:00008400       _jpeg_write_coefficients   10009400 f   jctrans.obj
+ 0001:00008460       _jpeg_CreateDecompress     10009460 f   jdapimin.obj
+ 0001:00008550       _jpeg_destroy_decompress   10009550 f   jdapimin.obj
+ 0001:00008560       _jpeg_abort_decompress     10009560 f   jdapimin.obj
+ 0001:00008700       _jpeg_consume_input        10009700 f   jdapimin.obj
+ 0001:000087c0       _jpeg_input_complete       100097c0 f   jdapimin.obj
+ 0001:00008810       _jpeg_has_multiple_scans   10009810 f   jdapimin.obj
+ 0001:00008860       _jpeg_finish_decompress    10009860 f   jdapimin.obj
+ 0001:00008920       _jpeg_read_header          10009920 f   jdapimin.obj
+ 0001:00008a60       _jpeg_read_scanlines       10009a60 f   jdapistd.obj
+ 0001:00008b00       _jpeg_read_raw_data        10009b00 f   jdapistd.obj
+ 0001:00008bb0       _jpeg_start_output         10009bb0 f   jdapistd.obj
+ 0001:00008c10       _jpeg_finish_output        10009c10 f   jdapistd.obj
+ 0001:00008cb0       _jpeg_start_decompress     10009cb0 f   jdapistd.obj
+ 0001:00009c80       _jinit_d_coef_controller   1000ac80 f   jdcoefct.obj
+ 0001:0000a230       _jinit_color_deconverter   1000b230 f   jdcolor.obj
+ 0001:0000a980       _jinit_inverse_dct         1000b980 f   jddctmgr.obj
+ 0001:0000c0e0       _jinit_huff_decoder        1000d0e0 f   jdhuff.obj
+ 0001:0000c740       _jinit_input_controller    1000d740 f   jdinput.obj
+ 0001:0000cd70       _jinit_d_main_controller   1000dd70 f   jdmainct.obj
+ 0001:0000e860       _jpeg_resync_to_restart    1000f860 f   jdmarker.obj
+ 0001:0000e990       _jinit_marker_reader       1000f990 f   jdmarker.obj
+ 0001:0000ea20       _jpeg_save_markers         1000fa20 f   jdmarker.obj
+ 0001:0000eaf0       _jpeg_set_marker_processor 1000faf0 f   jdmarker.obj
+ 0001:0000ec00       _jpeg_calc_output_dimensions 1000fc00 f   jdmaster.obj
+ 0001:0000f560       _jpeg_new_colormap         10010560 f   jdmaster.obj
+ 0001:0000f5d0       _jinit_master_decompress   100105d0 f   jdmaster.obj
+ 0001:0000fb70       _jinit_merged_upsampler    10010b70 f   jdmerge.obj
+ 0001:0000feb0       _jinit_d_post_controller   10010eb0 f   jdpostct.obj
+ 0001:00010240       _jinit_upsampler           10011240 f   jdsample.obj
+ 0001:00010470       _jpeg_read_coefficients    10011470 f   jdtrans.obj
+ 0001:000106a0       _jpeg_std_error            100116a0 f   jerror.obj
+ 0001:000106f0       _jpeg_fdct_float           100116f0 f   jfdctflt.obj
+ 0001:00011530       _jpeg_fdct_ifast           10012530 f   jfdctfst.obj
+ 0001:00011760       _jpeg_fdct_islow           10012760 f   jfdctint.obj
+ 0001:00011ab0       _jpeg_fdct_7x7             10012ab0 f   jfdctint.obj
+ 0001:00011d80       _jpeg_fdct_6x6             10012d80 f   jfdctint.obj
+ 0001:00012260       _jpeg_fdct_5x5             10013260 f   jfdctint.obj
+ 0001:00012930       _jpeg_fdct_4x4             10013930 f   jfdctint.obj
+ 0001:00012c60       _jpeg_fdct_3x3             10013c60 f   jfdctint.obj
+ 0001:00012e60       _jpeg_fdct_2x2             10013e60 f   jfdctint.obj
+ 0001:00012ed0       _jpeg_fdct_1x1             10013ed0 f   jfdctint.obj
+ 0001:00012f00       _jpeg_fdct_9x9             10013f00 f   jfdctint.obj
+ 0001:00013250       _jpeg_fdct_10x10           10014250 f   jfdctint.obj
+ 0001:00013670       _jpeg_fdct_11x11           10014670 f   jfdctint.obj
+ 0001:00013c10       _jpeg_fdct_12x12           10014c10 f   jfdctint.obj
+ 0001:00014130       _jpeg_fdct_13x13           10015130 f   jfdctint.obj
+ 0001:00014780       _jpeg_fdct_14x14           10015780 f   jfdctint.obj
+ 0001:00014d60       _jpeg_fdct_15x15           10015d60 f   jfdctint.obj
+ 0001:00015380       _jpeg_fdct_16x16           10016380 f   jfdctint.obj
+ 0001:00015ad0       _jpeg_fdct_16x8            10016ad0 f   jfdctint.obj
+ 0001:00016020       _jpeg_fdct_14x7            10017020 f   jfdctint.obj
+ 0001:00016450       _jpeg_fdct_12x6            10017450 f   jfdctint.obj
+ 0001:000167b0       _jpeg_fdct_10x5            100177b0 f   jfdctint.obj
+ 0001:00016a60       _jpeg_fdct_8x4             10017a60 f   jfdctint.obj
+ 0001:00016c90       _jpeg_fdct_6x3             10017c90 f   jfdctint.obj
+ 0001:000170a0       _jpeg_fdct_4x2             100180a0 f   jfdctint.obj
+ 0001:000171f0       _jpeg_fdct_2x1             100181f0 f   jfdctint.obj
+ 0001:00017230       _jpeg_fdct_8x16            10018230 f   jfdctint.obj
+ 0001:000177b0       _jpeg_fdct_7x14            100187b0 f   jfdctint.obj
+ 0001:00017c40       _jpeg_fdct_6x12            10018c40 f   jfdctint.obj
+ 0001:00017fc0       _jpeg_fdct_5x10            10018fc0 f   jfdctint.obj
+ 0001:000182f0       _jpeg_fdct_4x8             100192f0 f   jfdctint.obj
+ 0001:000186b0       _jpeg_fdct_3x6             100196b0 f   jfdctint.obj
+ 0001:00018b40       _jpeg_fdct_2x4             10019b40 f   jfdctint.obj
+ 0001:00018c80       _jpeg_fdct_1x2             10019c80 f   jfdctint.obj
+ 0001:00018cc0       _jpeg_idct_float           10019cc0 f   jidctflt.obj
+ 0001:000190f0       _jpeg_idct_ifast           1001a0f0 f   jidctfst.obj
+ 0001:000194e0       _jpeg_idct_islow           1001a4e0 f   jidctint.obj
+ 0001:00019960       _jpeg_idct_7x7             1001a960 f   jidctint.obj
+ 0001:00019d40       _jpeg_idct_6x6             1001ad40 f   jidctint.obj
+ 0001:0001a380       _jpeg_idct_5x5             1001b380 f   jidctint.obj
+ 0001:0001aba0       _jpeg_idct_4x4             1001bba0 f   jidctint.obj
+ 0001:0001afb0       _jpeg_idct_3x3             1001bfb0 f   jidctint.obj
+ 0001:0001b1e0       _jpeg_idct_2x2             1001c1e0 f   jidctint.obj
+ 0001:0001b290       _jpeg_idct_1x1             1001c290 f   jidctint.obj
+ 0001:0001b2d0       _jpeg_idct_9x9             1001c2d0 f   jidctint.obj
+ 0001:0001b6e0       _jpeg_idct_10x10           1001c6e0 f   jidctint.obj
+ 0001:0001bba0       _jpeg_idct_11x11           1001cba0 f   jidctint.obj
+ 0001:0001c1d0       _jpeg_idct_12x12           1001d1d0 f   jidctint.obj
+ 0001:0001c730       _jpeg_idct_13x13           1001d730 f   jidctint.obj
+ 0001:0001ceb0       _jpeg_idct_14x14           1001deb0 f   jidctint.obj
+ 0001:0001d580       _jpeg_idct_15x15           1001e580 f   jidctint.obj
+ 0001:0001dc80       _jpeg_idct_16x16           1001ec80 f   jidctint.obj
+ 0001:0001e460       _jpeg_idct_16x8            1001f460 f   jidctint.obj
+ 0001:0001eac0       _jpeg_idct_14x7            1001fac0 f   jidctint.obj
+ 0001:0001f020       _jpeg_idct_12x6            10020020 f   jidctint.obj
+ 0001:0001f6c0       _jpeg_idct_10x5            100206c0 f   jidctint.obj
+ 0001:0001fc40       _jpeg_idct_8x4             10020c40 f   jidctint.obj
+ 0001:00020030       _jpeg_idct_6x3             10021030 f   jidctint.obj
+ 0001:00020470       _jpeg_idct_4x2             10021470 f   jidctint.obj
+ 0001:00020610       _jpeg_idct_2x1             10021610 f   jidctint.obj
+ 0001:00020670       _jpeg_idct_8x16            10021670 f   jidctint.obj
+ 0001:00020c00       _jpeg_idct_7x14            10021c00 f   jidctint.obj
+ 0001:00021130       _jpeg_idct_6x12            10022130 f   jidctint.obj
+ 0001:00021800       _jpeg_idct_5x10            10022800 f   jidctint.obj
+ 0001:00021eb0       _jpeg_idct_4x8             10022eb0 f   jidctint.obj
+ 0001:000223a0       _jpeg_idct_3x6             100233a0 f   jidctint.obj
+ 0001:000228b0       _jpeg_idct_2x4             100238b0 f   jidctint.obj
+ 0001:00022a70       _jpeg_idct_1x2             10023a70 f   jidctint.obj
+ 0001:00023610       _jinit_memory_mgr          10024610 f   jmemmgr.obj
+ 0001:00023740       _jpeg_get_small            10024740 f   jmemnobs.obj
+ 0001:00023750       _jpeg_free_small           10024750 f   jmemnobs.obj
+ 0001:00023760       _jpeg_get_large            10024760 f   jmemnobs.obj
+ 0001:00023770       _jpeg_free_large           10024770 f   jmemnobs.obj
+ 0001:00023780       _jpeg_mem_available        10024780 f   jmemnobs.obj
+ 0001:00023790       _jpeg_open_backing_store   10024790 f   jmemnobs.obj
+ 0001:000237b0       _jpeg_mem_init             100247b0 f   jmemnobs.obj
+ 0001:000237c0       _jpeg_mem_term             100247c0 f   jmemnobs.obj
+ 0001:000243a0       _jinit_1pass_quantizer     100253a0 f   jquant1.obj
+ 0001:000256c0       _jinit_2pass_quantizer     100266c0 f   jquant2.obj
+ 0001:000257f0       _jdiv_round_up             100267f0 f   jutils.obj
+ 0001:00025800       _jround_up                 10026800 f   jutils.obj
+ 0001:00025820       _jcopy_sample_rows         10026820 f   jutils.obj
+ 0001:00025870       _jcopy_block_row           10026870 f   jutils.obj
+ 0001:000258a0       _jzero_far                 100268a0 f   jutils.obj
+ 0001:000258c0       _ThrowByName               100268c0 f   jpegloader.obj
+ 0001:000258f0       _GetEnv                    100268f0 f   jpegloader.obj
+ 0001:00025910       _JNI_OnLoad                10026910 f   jpegloader.obj
+ 0001:00025c50       _imageio_init_source       10026c50 f   jpegloader.obj
+ 0001:00025c70       _imageio_fill_input_buffer 10026c70 f   jpegloader.obj
+ 0001:00025d90       _imageio_fill_suspended_buffer 10026d90 f   jpegloader.obj
+ 0001:00025f10       _imageio_skip_input_data   10026f10 f   jpegloader.obj
+ 0001:00026070       _imageio_term_source       10027070 f   jpegloader.obj
+ 0001:00026160       _read_icc_profile          10027160 f   jpegloader.obj
+ 0001:000264c0       _Java_com_sun_javafx_iio_jpeg_JPEGImageLoader_initJPEGMethodIDs 100274c0 f   jpegloader.obj
+ 0001:00026570       _Java_com_sun_javafx_iio_jpeg_JPEGImageLoader_startDecompression 10027570 f   jpegloader.obj
+ 0001:00026690       _Java_com_sun_javafx_iio_jpeg_JPEGImageLoader_decompressIndirect 10027690 f   jpegloader.obj
+ 0001:00026cb0       _Java_com_sun_javafx_iio_jpeg_JPEGImageLoader_disposeNative 10027cb0 f   jpegloader.obj
+ 0001:00026d10       _Java_com_sun_javafx_iio_jpeg_JPEGImageLoader_initDecompressor 10027d10 f   jpegloader.obj
+ 0001:00027110       __setjmp3                  10028110 f   MSVCRT:MSVCR71.dll
+ 0001:00027116       __CRT_INIT@12              10028116 f   MSVCRT:crtdll.obj
+ 0001:000271d4       __DllMainCRTStartup@12     100281d4 f   MSVCRT:crtdll.obj
+ 0001:000272b8       __initterm                 100282b8 f   MSVCRT:MSVCR71.dll
+ 0001:000272be       __onexit                   100282be f   MSVCRT:atonexit.obj
+ 0001:000272e4       _atexit                    100282e4 f   MSVCRT:atonexit.obj
+ 0001:000272f6       __RTC_Initialize           100282f6 f   MSVCRT:initsect.obj
+ 0001:0002733a       __RTC_Terminate            1002833a f   MSVCRT:initsect.obj
+ 0001:0002737e       ___CppXcptFilter           1002837e f   MSVCRT:MSVCR71.dll
+ 0001:00027384       _DllMain@12                10028384 f   MSVCRT:dllmain.obj
+ 0001:000273a4       __SEH_prolog               100283a4 f   MSVCRT:sehprolg.obj
+ 0001:000273df       __SEH_epilog               100283df f   MSVCRT:sehprolg.obj
+ 0001:000273f0       __except_handler3          100283f0 f   MSVCRT:MSVCR71.dll
+ 0001:000273f6       ___dllonexit               100283f6 f   MSVCRT:MSVCR71.dll
+ 0002:00000000       __imp__DisableThreadLibraryCalls@4 10029000     kernel32:KERNEL32.dll
+ 0002:00000004       \177KERNEL32_NULL_THUNK_DATA 10029004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp___iob                10029008     MSVCRT:MSVCR71.dll
+ 0002:0000000c       __imp__sprintf             1002900c     MSVCRT:MSVCR71.dll
+ 0002:00000010       __imp__sscanf              10029010     MSVCRT:MSVCR71.dll
+ 0002:00000014       __imp__getenv              10029014     MSVCRT:MSVCR71.dll
+ 0002:00000018       __imp__malloc              10029018     MSVCRT:MSVCR71.dll
+ 0002:0000001c       __imp__free                1002901c     MSVCRT:MSVCR71.dll
+ 0002:00000020       __imp___assert             10029020     MSVCRT:MSVCR71.dll
+ 0002:00000024       __imp__fprintf             10029024     MSVCRT:MSVCR71.dll
+ 0002:00000028       __imp___setjmp3            10029028     MSVCRT:MSVCR71.dll
+ 0002:0000002c       __imp___initterm           1002902c     MSVCRT:MSVCR71.dll
+ 0002:00000030       __imp___adjust_fdiv        10029030     MSVCRT:MSVCR71.dll
+ 0002:00000034       __imp____CppXcptFilter     10029034     MSVCRT:MSVCR71.dll
+ 0002:00000038       __imp___except_handler3    10029038     MSVCRT:MSVCR71.dll
+ 0002:0000003c       __imp____dllonexit         1002903c     MSVCRT:MSVCR71.dll
+ 0002:00000040       __imp___onexit             10029040     MSVCRT:MSVCR71.dll
+ 0002:00000044       __imp__longjmp             10029044     MSVCRT:MSVCR71.dll
+ 0002:00000048       __imp__exit                10029048     MSVCRT:MSVCR71.dll
+ 0002:0000004c       \177MSVCR71_NULL_THUNK_DATA 1002904c     MSVCRT:MSVCR71.dll
+ 0002:00000050       __real@3ff0000000000000    10029050     jcapimin.obj
+ 0002:00000118       __real@46800100            10029118     jcdctmgr.obj
+ 0002:00000120       __real@4001a855de72ab5d    10029120     jcdctmgr.obj
+ 0002:00000128       __real@4011517a7bc720bb    10029128     jcdctmgr.obj
+ 0002:00000130       __real@40192469c0a7bf3b    10029130     jcdctmgr.obj
+ 0002:00000138       __real@4022d062ef6c11aa    10029138     jcdctmgr.obj
+ 0002:00000140       __real@4024e7ae914d6fca    10029140     jcdctmgr.obj
+ 0002:00000148       __real@40263150b14861ef    10029148     jcdctmgr.obj
+ 0002:00000150       __real@4020000000000000    10029150     jcdctmgr.obj
+ 0002:000005d0       __real@3fd1a855de72ab5d    100295d0     jddctmgr.obj
+ 0002:000005d8       __real@3fe1517a7bc720bb    100295d8     jddctmgr.obj
+ 0002:000005e0       __real@3fe92469c0a7bf3b    100295e0     jddctmgr.obj
+ 0002:000005e8       __real@3ff2d062ef6c11aa    100295e8     jddctmgr.obj
+ 0002:000005f0       __real@3ff4e7ae914d6fca    100295f0     jddctmgr.obj
+ 0002:000005f8       __real@3ff63150b14861ef    100295f8     jddctmgr.obj
+ 0002:00000740       _jpeg_std_message_table    10029740     jerror.obj
+ 0002:00000944       __real@44800000            10029944     jfdctflt.obj
+ 0002:00000948       __real@3fa73d75            10029948     jfdctflt.obj
+ 0002:0000094c       __real@3f0a8bd4            1002994c     jfdctflt.obj
+ 0002:00000950       __real@3ec3ef15            10029950     jfdctflt.obj
+ 0002:00000954       __real@3f3504f3            10029954     jfdctflt.obj
+ 0002:00000958       __real@40273d75            10029958     jidctflt.obj
+ 0002:0000095c       __real@3fec835e            1002995c     jidctflt.obj
+ 0002:00000960       __real@3f8a8bd4            10029960     jidctflt.obj
+ 0002:00000964       __real@3fb504f3            10029964     jidctflt.obj
+ 0002:00000a88       _jpeg_natural_order        10029a88     jutils.obj
+ 0002:00000bf8       __load_config_used         10029bf8     MSVCRT:loadcfg.obj
+ 0002:00000c40       ___safe_se_handler_table   10029c40     <linker-defined>
+ 0002:00000c44       ___rtc_iaa                 10029c44     MSVCRT:initsect.obj
+ 0002:00000c48       ___rtc_izz                 10029c48     MSVCRT:initsect.obj
+ 0002:00000c4c       ___rtc_taa                 10029c4c     MSVCRT:initsect.obj
+ 0002:00000c50       ___rtc_tzz                 10029c50     MSVCRT:initsect.obj
+ 0002:00000c54       __IMPORT_DESCRIPTOR_MSVCR71 10029c54     MSVCRT:MSVCR71.dll
+ 0002:00000c68       __IMPORT_DESCRIPTOR_KERNEL32 10029c68     kernel32:KERNEL32.dll
+ 0002:00000c7c       __NULL_IMPORT_DESCRIPTOR   10029c7c     MSVCRT:MSVCR71.dll
+ 0003:00000000       ___xc_a                    1002a000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    1002a004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    1002a008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    1002a00c     MSVCRT:cinitexe.obj
+ 0003:000019f0       ___security_cookie         1002b9f0     MSVCRT:seccook.obj
+ 0003:00001a10       _jvm                       1002ba10     <common>
+ 0003:00001a14       __adjust_fdiv              1002ba14     <common>
+ 0003:00001a18       ___onexitend               1002ba18     <common>
+ 0003:00001a1c       ___onexitbegin             1002ba1c     <common>
+ 0003:00001a20       __pRawDllMain              1002ba20     <common>
+
+ entry point at        0001:000271d4
+
+ Static symbols
+
+ 0001:000005f0       _start_iMCU_row            100015f0 f   jccoefct.obj
+ 0001:00000640       _compress_data             10001640 f   jccoefct.obj
+ 0001:00000900       _compress_output           10001900 f   jccoefct.obj
+ 0001:00000b10       _compress_first_pass       10001b10 f   jccoefct.obj
+ 0001:00000d30       _start_pass_coef           10001d30 f   jccoefct.obj
+ 0001:00000f10       _rgb_ycc_start             10001f10 f   jccolor.obj
+ 0001:00000ff0       _rgb_ycc_convert           10001ff0 f   jccolor.obj
+ 0001:00001110       _rgb_gray_convert          10002110 f   jccolor.obj
+ 0001:000011c0       _cmyk_ycck_convert         100021c0 f   jccolor.obj
+ 0001:00001320       _grayscale_convert         10002320 f   jccolor.obj
+ 0001:00001390       _null_convert              10002390 f   jccolor.obj
+ 0001:00001420       _null_method               10002420 f   jccolor.obj
+ 0001:00001660       _forward_DCT               10002660 f   jcdctmgr.obj
+ 0001:00001820       _forward_DCT_float         10002820 f   jcdctmgr.obj
+ 0001:00001900       _start_pass_fdctmgr        10002900 f   jcdctmgr.obj
+ 0001:00001f70       _jpeg_make_c_derived_tbl   10002f70 f   jchuff.obj
+ 0001:00002180       _dump_buffer_s             10003180 f   jchuff.obj
+ 0001:000021b0       _dump_buffer_e             100031b0 f   jchuff.obj
+ 0001:000021f0       _emit_bits_s               100031f0 f   jchuff.obj
+ 0001:000022e0       _emit_bits_e               100032e0 f   jchuff.obj
+ 0001:00002420       _flush_bits_s              10003420 f   jchuff.obj
+ 0001:00002450       _flush_bits_e              10003450 f   jchuff.obj
+ 0001:00002470       _emit_symbol               10003470 f   jchuff.obj
+ 0001:000024b0       _emit_buffered_bits        100034b0 f   jchuff.obj
+ 0001:000024e0       _emit_eobrun               100034e0 f   jchuff.obj
+ 0001:000025a0       _emit_restart_s            100035a0 f   jchuff.obj
+ 0001:00002670       _emit_restart_e            10003670 f   jchuff.obj
+ 0001:00002780       _encode_mcu_DC_first       10003780 f   jchuff.obj
+ 0001:00002900       _encode_mcu_AC_first       10003900 f   jchuff.obj
+ 0001:00002b10       _encode_mcu_DC_refine      10003b10 f   jchuff.obj
+ 0001:00002be0       _encode_mcu_AC_refine      10003be0 f   jchuff.obj
+ 0001:00002ea0       _encode_one_block          10003ea0 f   jchuff.obj
+ 0001:00003030       _encode_mcu_huff           10004030 f   jchuff.obj
+ 0001:000031b0       _finish_pass_huff          100041b0 f   jchuff.obj
+ 0001:000032d0       _htest_one_block           100042d0 f   jchuff.obj
+ 0001:000033c0       _encode_mcu_gather         100043c0 f   jchuff.obj
+ 0001:00003490       _jpeg_gen_optimal_table    10004490 f   jchuff.obj
+ 0001:000036f0       _finish_pass_gather        100046f0 f   jchuff.obj
+ 0001:000038b0       _start_pass_huff           100048b0 f   jchuff.obj
+ 0001:00003d00       _process_data_simple_main  10004d00 f   jcmainct.obj
+ 0001:00003db0       _start_pass_main           10004db0 f   jcmainct.obj
+ 0001:00003e90       _emit_byte                 10004e90 f   jcmarker.obj
+ 0001:00003ed0       _emit_marker               10004ed0 f   jcmarker.obj
+ 0001:00003f40       _emit_2bytes               10004f40 f   jcmarker.obj
+ 0001:00003fb0       _emit_dqt                  10004fb0 f   jcmarker.obj
+ 0001:00004140       _emit_dht                  10005140 f   jcmarker.obj
+ 0001:000042a0       _emit_dac                  100052a0 f   jcmarker.obj
+ 0001:000042b0       _emit_dri                  100052b0 f   jcmarker.obj
+ 0001:000042e0       _emit_sof                  100052e0 f   jcmarker.obj
+ 0001:00004460       _emit_sos                  10005460 f   jcmarker.obj
+ 0001:00004640       _emit_jfif_app0            10005640 f   jcmarker.obj
+ 0001:00004860       _emit_adobe_app14          10005860 f   jcmarker.obj
+ 0001:000049d0       _write_marker_header       100059d0 f   jcmarker.obj
+ 0001:00004a10       _write_marker_byte         10005a10 f   jcmarker.obj
+ 0001:00004a50       _write_file_header         10005a50 f   jcmarker.obj
+ 0001:00004aa0       _write_frame_header        10005aa0 f   jcmarker.obj
+ 0001:00004b90       _write_scan_header         10005b90 f   jcmarker.obj
+ 0001:00004c80       _write_file_trailer        10005c80 f   jcmarker.obj
+ 0001:00004ca0       _write_tables_only         10005ca0 f   jcmarker.obj
+ 0001:00005160       _initial_setup             10006160 f   jcmaster.obj
+ 0001:00005440       _validate_script           10006440 f   jcmaster.obj
+ 0001:00005810       _select_scan_parameters    10006810 f   jcmaster.obj
+ 0001:00005900       _per_scan_setup            10006900 f   jcmaster.obj
+ 0001:00005ad0       _prepare_for_pass          10006ad0 f   jcmaster.obj
+ 0001:00005c60       _pass_startup              10006c60 f   jcmaster.obj
+ 0001:00005c90       _finish_pass_master        10006c90 f   jcmaster.obj
+ 0001:00006170       _add_huff_table            10007170 f   jcparam.obj
+ 0001:00006220       _std_huff_tables           10007220 f   jcparam.obj
+ 0001:00006570       _fill_a_scan               10007570 f   jcparam.obj
+ 0001:000065a0       _fill_scans                100075a0 f   jcparam.obj
+ 0001:000065d0       _fill_dc_scans             100075d0 f   jcparam.obj
+ 0001:00006c80       _start_pass_prep           10007c80 f   jcprepct.obj
+ 0001:00006cd0       _expand_bottom_edge        10007cd0 f   jcprepct.obj
+ 0001:00006d00       _pre_process_data          10007d00 f   jcprepct.obj
+ 0001:00006f20       _pre_process_context       10007f20 f   jcprepct.obj
+ 0001:00007140       _create_context_buffer     10008140 f   jcprepct.obj
+ 0001:00007330       _start_pass_downsample     10008330 f   jcsample.obj
+ 0001:00007340       _expand_right_edge         10008340 f   jcsample.obj
+ 0001:000073a0       _sep_downsample            100083a0 f   jcsample.obj
+ 0001:00007440       _int_downsample            10008440 f   jcsample.obj
+ 0001:00007580       _fullsize_downsample       10008580 f   jcsample.obj
+ 0001:000075d0       _h2v1_downsample           100085d0 f   jcsample.obj
+ 0001:00007680       _h2v2_downsample           10008680 f   jcsample.obj
+ 0001:00007760       _h2v2_smooth_downsample    10008760 f   jcsample.obj
+ 0001:00007a10       _fullsize_smooth_downsample 10008a10 f   jcsample.obj
+ 0001:00007fb0       _start_iMCU_row            10008fb0 f   jctrans.obj
+ 0001:00008000       _start_pass_coef           10009000 f   jctrans.obj
+ 0001:00008070       _compress_output           10009070 f   jctrans.obj
+ 0001:00008300       _transencode_coef_controller 10009300 f   jctrans.obj
+ 0001:000083a0       _transencode_master_selection 100093a0 f   jctrans.obj
+ 0001:00008570       _default_decompress_parms  10009570 f   jdapimin.obj
+ 0001:00008990       _output_pass_setup         10009990 f   jdapistd.obj
+ 0001:00008d80       _start_iMCU_row            10009d80 f   jdcoefct.obj
+ 0001:00008dd0       _start_input_pass          10009dd0 f   jdcoefct.obj
+ 0001:00008df0       _decompress_onepass        10009df0 f   jdcoefct.obj
+ 0001:00009090       _dummy_consume_data        1000a090 f   jdcoefct.obj
+ 0001:000090a0       _consume_data              1000a0a0 f   jdcoefct.obj
+ 0001:000092d0       _decompress_data           1000a2d0 f   jdcoefct.obj
+ 0001:00009470       _smoothing_ok              1000a470 f   jdcoefct.obj
+ 0001:000095e0       _decompress_smooth_data    1000a5e0 f   jdcoefct.obj
+ 0001:00009c30       _start_output_pass         1000ac30 f   jdcoefct.obj
+ 0001:00009dd0       _build_ycc_rgb_table       1000add0 f   jdcolor.obj
+ 0001:00009ea0       _ycc_rgb_convert           1000aea0 f   jdcolor.obj
+ 0001:00009fc0       _null_convert              1000afc0 f   jdcolor.obj
+ 0001:0000a040       _grayscale_convert         1000b040 f   jdcolor.obj
+ 0001:0000a070       _gray_rgb_convert          1000b070 f   jdcolor.obj
+ 0001:0000a0d0       _ycck_cmyk_convert         1000b0d0 f   jdcolor.obj
+ 0001:0000a220       _start_pass_dcolor         1000b220 f   jdcolor.obj
+ 0001:0000a400       _start_pass                1000b400 f   jddctmgr.obj
+ 0001:0000aa00       _jpeg_make_d_derived_tbl   1000ba00 f   jdhuff.obj
+ 0001:0000acd0       _jpeg_fill_bit_buffer      1000bcd0 f   jdhuff.obj
+ 0001:0000adf0       _jpeg_huff_decode          1000bdf0 f   jdhuff.obj
+ 0001:0000aeb0       _process_restart           1000beb0 f   jdhuff.obj
+ 0001:0000af40       _decode_mcu_DC_first       1000bf40 f   jdhuff.obj
+ 0001:0000b170       _decode_mcu_AC_first       1000c170 f   jdhuff.obj
+ 0001:0000b3c0       _decode_mcu_DC_refine      1000c3c0 f   jdhuff.obj
+ 0001:0000b4b0       _decode_mcu_AC_refine      1000c4b0 f   jdhuff.obj
+ 0001:0000b8b0       _decode_mcu                1000c8b0 f   jdhuff.obj
+ 0001:0000bd10       _start_pass_huff_decoder   1000cd10 f   jdhuff.obj
+ 0001:0000c180       _initial_setup             1000d180 f   jdinput.obj
+ 0001:0000c390       _per_scan_setup            1000d390 f   jdinput.obj
+ 0001:0000c530       _latch_quant_tables        1000d530 f   jdinput.obj
+ 0001:0000c5e0       _start_input_pass          1000d5e0 f   jdinput.obj
+ 0001:0000c620       _consume_markers           1000d620 f   jdinput.obj
+ 0001:0000c6e0       _reset_input_controller    1000d6e0 f   jdinput.obj
+ 0001:0000c720       _finish_input_pass         1000d720 f   jdinput.obj
+ 0001:0000c790       _alloc_funny_pointers      1000d790 f   jdmainct.obj
+ 0001:0000c840       _make_funny_pointers       1000d840 f   jdmainct.obj
+ 0001:0000c990       _set_wraparound_pointers   1000d990 f   jdmainct.obj
+ 0001:0000ca70       _set_bottom_pointers       1000da70 f   jdmainct.obj
+ 0001:0000cb10       _process_data_simple_main  1000db10 f   jdmainct.obj
+ 0001:0000cb80       _process_data_context_main 1000db80 f   jdmainct.obj
+ 0001:0000ccc0       _process_data_crank_post   1000dcc0 f   jdmainct.obj
+ 0001:0000ccf0       _start_pass_main           1000dcf0 f   jdmainct.obj
+ 0001:0000ce50       _get_soi                   1000de50 f   jdmarker.obj
+ 0001:0000cf00       _get_sof                   1000df00 f   jdmarker.obj
+ 0001:0000d210       _get_sos                   1000e210 f   jdmarker.obj
+ 0001:0000d500       _get_dht                   1000e500 f   jdmarker.obj
+ 0001:0000d810       _get_dqt                   1000e810 f   jdmarker.obj
+ 0001:0000da70       _get_dri                   1000ea70 f   jdmarker.obj
+ 0001:0000db50       _examine_app0              1000eb50 f   jdmarker.obj
+ 0001:0000dda0       _examine_app14             1000eda0 f   jdmarker.obj
+ 0001:0000de50       _get_interesting_appn      1000ee50 f   jdmarker.obj
+ 0001:0000dfa0       _save_marker               1000efa0 f   jdmarker.obj
+ 0001:0000e210       _skip_variable             1000f210 f   jdmarker.obj
+ 0001:0000e2b0       _next_marker               1000f2b0 f   jdmarker.obj
+ 0001:0000e3b0       _first_marker              1000f3b0 f   jdmarker.obj
+ 0001:0000e450       _read_markers              1000f450 f   jdmarker.obj
+ 0001:0000e7d0       _read_restart_marker       1000f7d0 f   jdmarker.obj
+ 0001:0000e960       _reset_marker_reader       1000f960 f   jdmarker.obj
+ 0001:0000eb40       _use_merged_upsample       1000fb40 f   jdmaster.obj
+ 0001:0000f190       _prepare_range_limit_table 10010190 f   jdmaster.obj
+ 0001:0000f210       _master_selection          10010210 f   jdmaster.obj
+ 0001:0000f3d0       _prepare_for_output_pass   100103d0 f   jdmaster.obj
+ 0001:0000f530       _finish_output_pass        10010530 f   jdmaster.obj
+ 0001:0000f600       _build_ycc_rgb_table       10010600 f   jdmerge.obj
+ 0001:0000f6d0       _start_pass_merged_upsample 100106d0 f   jdmerge.obj
+ 0001:0000f6f0       _merged_2v_upsample        100106f0 f   jdmerge.obj
+ 0001:0000f7b0       _merged_1v_upsample        100107b0 f   jdmerge.obj
+ 0001:0000f7f0       _h2v1_merged_upsample      100107f0 f   jdmerge.obj
+ 0001:0000f940       _h2v2_merged_upsample      10010940 f   jdmerge.obj
+ 0001:0000fbf0       _post_process_1pass        10010bf0 f   jdpostct.obj
+ 0001:0000fc70       _post_process_prepass      10010c70 f   jdpostct.obj
+ 0001:0000fd10       _post_process_2pass        10010d10 f   jdpostct.obj
+ 0001:0000fdb0       _start_pass_dpost          10010db0 f   jdpostct.obj
+ 0001:0000ff40       _start_pass_upsample       10010f40 f   jdsample.obj
+ 0001:0000ff60       _sep_upsample              10010f60 f   jdsample.obj
+ 0001:00010040       _fullsize_upsample         10011040 f   jdsample.obj
+ 0001:00010050       _noop_upsample             10011050 f   jdsample.obj
+ 0001:00010060       _int_upsample              10011060 f   jdsample.obj
+ 0001:00010160       _h2v1_upsample             10011160 f   jdsample.obj
+ 0001:000101c0       _h2v2_upsample             100111c0 f   jdsample.obj
+ 0001:000103d0       _transdecode_master_selection 100113d0 f   jdtrans.obj
+ 0001:00010530       _error_exit                10011530 f   jerror.obj
+ 0001:00010550       _output_message            10011550 f   jerror.obj
+ 0001:00010590       _emit_message              10011590 f   jerror.obj
+ 0001:000105d0       _format_message            100115d0 f   jerror.obj
+ 0001:00010680       _reset_error_mgr           10011680 f   jerror.obj
+ 0001:00022ae0       _out_of_memory             10023ae0 f   jmemmgr.obj
+ 0001:00022b00       _alloc_small               10023b00 f   jmemmgr.obj
+ 0001:00022c50       _alloc_large               10023c50 f   jmemmgr.obj
+ 0001:00022d10       _alloc_sarray              10023d10 f   jmemmgr.obj
+ 0001:00022dc0       _alloc_barray              10023dc0 f   jmemmgr.obj
+ 0001:00022e70       _request_virt_sarray       10023e70 f   jmemmgr.obj
+ 0001:00022ee0       _request_virt_barray       10023ee0 f   jmemmgr.obj
+ 0001:00022f50       _realize_virt_arrays       10023f50 f   jmemmgr.obj
+ 0001:000230f0       _do_sarray_io              100240f0 f   jmemmgr.obj
+ 0001:00023190       _do_barray_io              10024190 f   jmemmgr.obj
+ 0001:00023230       _access_virt_sarray        10024230 f   jmemmgr.obj
+ 0001:00023370       _access_virt_barray        10024370 f   jmemmgr.obj
+ 0001:000234c0       _free_pool                 100244c0 f   jmemmgr.obj
+ 0001:000235d0       _self_destruct             100245d0 f   jmemmgr.obj
+ 0001:000237d0       _select_ncolors            100247d0 f   jquant1.obj
+ 0001:000238c0       _output_value              100248c0 f   jquant1.obj
+ 0001:000238e0       _largest_input_value       100248e0 f   jquant1.obj
+ 0001:00023900       _create_colormap           10024900 f   jquant1.obj
+ 0001:00023a80       _create_colorindex         10024a80 f   jquant1.obj
+ 0001:00023bf0       _make_odither_array        10024bf0 f   jquant1.obj
+ 0001:00023c70       _create_odither_tables     10024c70 f   jquant1.obj
+ 0001:00023cc0       _color_quantize            10024cc0 f   jquant1.obj
+ 0001:00023d70       _color_quantize3           10024d70 f   jquant1.obj
+ 0001:00023e30       _quantize_ord_dither       10024e30 f   jquant1.obj
+ 0001:00023f60       _quantize3_ord_dither      10024f60 f   jquant1.obj
+ 0001:00024080       _quantize_fs_dither        10025080 f   jquant1.obj
+ 0001:00024240       _alloc_fs_workspace        10025240 f   jquant1.obj
+ 0001:00024280       _start_pass_1_quant        10025280 f   jquant1.obj
+ 0001:00024370       _finish_pass_1_quant       10025370 f   jquant1.obj
+ 0001:00024380       _new_color_map_1_quant     10025380 f   jquant1.obj
+ 0001:00024440       _prescan_quantize          10025440 f   jquant2.obj
+ 0001:000244c0       _find_biggest_color_pop    100254c0 f   jquant2.obj
+ 0001:000244f0       _find_biggest_volume       100254f0 f   jquant2.obj
+ 0001:00024520       _update_box                10025520 f   jquant2.obj
+ 0001:00024910       _median_cut                10025910 f   jquant2.obj
+ 0001:00024a80       _compute_color             10025a80 f   jquant2.obj
+ 0001:00024c00       _select_colors             10025c00 f   jquant2.obj
+ 0001:00024c90       _find_nearby_colors        10025c90 f   jquant2.obj
+ 0001:00024e60       _find_best_colors          10025e60 f   jquant2.obj
+ 0001:00024fe0       _fill_inverse_cmap         10025fe0 f   jquant2.obj
+ 0001:00025100       _pass2_no_dither           10026100 f   jquant2.obj
+ 0001:000251d0       _pass2_fs_dither           100261d0 f   jquant2.obj
+ 0001:000254b0       _init_error_limit          100264b0 f   jquant2.obj
+ 0001:00025550       _finish_pass1              10026550 f   jquant2.obj
+ 0001:00025580       _finish_pass2              10026580 f   jquant2.obj
+ 0001:00025590       _start_pass_2_quant        10026590 f   jquant2.obj
+ 0001:000256b0       _new_color_map_2_quant     100266b0 f   jquant2.obj
+ 0001:00025920       _pinStreamBuffer           10026920 f   jpegloader.obj
+ 0001:00025980       _unpinStreamBuffer         10026980 f   jpegloader.obj
+ 0001:000259e0       _initPixelBuffer           100269e0 f   jpegloader.obj
+ 0001:000259f0       _pinPixelBuffer            100269f0 f   jpegloader.obj
+ 0001:00025a40       _unpinPixelBuffer          10026a40 f   jpegloader.obj
+ 0001:00025a90       _RELEASE_ARRAYS            10026a90 f   jpegloader.obj
+ 0001:00025af0       _GET_ARRAYS                10026af0 f   jpegloader.obj
+ 0001:00025b60       _sun_jpeg_error_exit       10026b60 f   jpegloader.obj
+ 0001:00025b80       _sun_jpeg_output_message   10026b80 f   jpegloader.obj
+ 0001:00025c00       _imageio_dispose           10026c00 f   jpegloader.obj
+ 0001:000260f0       _marker_is_icc             100270f0 f   jpegloader.obj
+ 0001:00026920       _resetStreamBuffer         10027920 f   jpegloader.obj
+ 0001:000269a0       _resetPixelBuffer          100279a0 f   jpegloader.obj
+ 0001:000269e0       _imageio_set_stream        100279e0 f   jpegloader.obj
+ 0001:00026ac0       _initStreamBuffer          10027ac0 f   jpegloader.obj
+ 0001:00026b70       _destroyStreamBuffer       10027b70 f   jpegloader.obj
+ 0001:00026b90       _initImageioData           10027b90 f   jpegloader.obj
+ 0001:00026c20       _destroyImageioData        10027c20 f   jpegloader.obj

@@ -1,0 +1,5 @@
+.class: com.sun.jme.toolkit.aut.proxy.MozillaProxyDiscovery
+
+.parent: UpdateCenter
+.parent-add-method: addProxyDiscovery
+settingsDir: Application Data\\Mozilla

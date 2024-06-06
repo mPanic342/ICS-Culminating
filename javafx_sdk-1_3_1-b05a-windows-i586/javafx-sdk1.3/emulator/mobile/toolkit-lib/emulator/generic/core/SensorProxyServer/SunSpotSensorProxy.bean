@@ -1,0 +1,24 @@
+#
+# Copyright (c) 2009 Sun Microsystems, Inc. All rights reserved.
+# Use is subject to license terms.
+#
+
+.class: com.sun.kvem.sensor.impl.SunSpotSensorProxy
+.parent-add-method: addSensorProxy
+
+datagramReceiveTimeout: 2000
+basestationRetry: 100
+
+# to enable SunSPOT support, set 'enabled' to true
+# and confugure possibleBasestationPort and spotAddress
+enabled: false
+possibleBasestationPort: COM8
+spotAddress: 0014.4F01.0000.0D26
+
+datagramPort: 100
+description: Sun SPOT Accelerometer
+quantity: acceleration
+context: device
+connection: short_range_wireless
+model: SPOT
+maxBuffer: 256
