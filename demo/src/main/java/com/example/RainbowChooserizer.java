@@ -1,6 +1,7 @@
 package com.example;
 
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
@@ -17,8 +18,8 @@ public class RainbowChooserizer extends Application {
         primaryStage.setTitle("Rainbow Chooserizer");
 
         // Create buttons for navigation
-        Button button1 = new Button("Option 1");
-        Button button2 = new Button("Option 2");
+        Button button1 = new Button("Goofy Fun Mode");
+        Button button2 = new Button("Ranked Mode");
 
         // Set actions for buttons
         button1.setOnAction(e -> showOption1(primaryStage));
@@ -26,10 +27,22 @@ public class RainbowChooserizer extends Application {
 
         // Layout for title page
         VBox layout = new VBox(20);
+        layout.setAlignment(Pos.CENTER); // Center the buttons
         layout.getChildren().addAll(button1, button2);
 
-        // Set the scene and show
+        // Add CSS class to the layout
+        layout.getStyleClass().add("root");
+
+        // Load CSS
         Scene scene = new Scene(layout, 300, 200);
+        try {
+            String css = getClass().getResource("/styles.css").toExternalForm();
+            scene.getStylesheets().add(css);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Error loading CSS file");
+        }
+
         primaryStage.setScene(scene);
         primaryStage.show();
     }
@@ -37,22 +50,46 @@ public class RainbowChooserizer extends Application {
     private void showOption1(Stage stage) {
         // Create layout for Option 1
         VBox layout1 = new VBox(20);
+        layout1.setAlignment(Pos.CENTER); // Center the back button
         Button backButton = new Button("Back to Title Page");
         backButton.setOnAction(e -> start(stage)); // Navigate back to the title page
 
         layout1.getChildren().add(backButton);
+
+        // Add CSS class to the layout
+        layout1.getStyleClass().add("root");
+
         Scene scene1 = new Scene(layout1, 300, 200);
+        try {
+            String css = getClass().getResource("/styles.css").toExternalForm();
+            scene1.getStylesheets().add(css);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Error loading CSS file");
+        }
         stage.setScene(scene1);
     }
 
     private void showOption2(Stage stage) {
         // Create layout for Option 2
         VBox layout2 = new VBox(20);
+        layout2.setAlignment(Pos.CENTER); // Center the back button
         Button backButton = new Button("Back to Title Page");
         backButton.setOnAction(e -> start(stage)); // Navigate back to the title page
 
         layout2.getChildren().add(backButton);
+
+        // Add CSS class to the layout
+        layout2.getStyleClass().add("root");
+
         Scene scene2 = new Scene(layout2, 300, 200);
+        try {
+            String css = getClass().getResource("/styles.css").toExternalForm();
+            scene2.getStylesheets().add(css);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Error loading CSS file");
+        }
         stage.setScene(scene2);
     }
 }
