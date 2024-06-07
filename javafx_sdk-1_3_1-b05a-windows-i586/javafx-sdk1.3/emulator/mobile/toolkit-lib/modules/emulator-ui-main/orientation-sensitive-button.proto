@@ -1,5 +1,0 @@
-.class: com.sun.kvem.OrientationSensitiveButton
-.parent-add-method: addControl
-
-deviceState: $parent
-keyEventHandler: KeyboardHandler

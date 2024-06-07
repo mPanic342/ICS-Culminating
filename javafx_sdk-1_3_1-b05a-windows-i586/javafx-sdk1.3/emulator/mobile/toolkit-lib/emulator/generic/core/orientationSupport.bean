@@ -1,3 +1,0 @@
-.class: com.sun.kvem.OrientationSupport
-
-requestedOrientation: ${orientation}

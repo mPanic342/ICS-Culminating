@@ -1,8 +1,0 @@
-.class: com.sun.kvem.EMDeviceState
-.dependents: EMDevice
-.parent: EMDevice
-.parent-add-method: addDeviceState
-
-device: $parent
-
-eventManager: EventBridge
