@@ -1,26 +1,32 @@
 package com.example;
 
+import java.util.Collections;
+import java.util.List;
+
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.layout.Border;
+import javafx.scene.layout.BorderStroke;
+import javafx.scene.layout.BorderStrokeStyle;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-import java.util.Collections;
-import java.util.List;
 
 public class RainbowChooserizer extends Application {
 
     public static void main(String[] args) {
         launch(args);
     }
-
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Rainbow Chooserizer");
 
+        primaryStage.getIcons().add(new Image("/resources/mainbg.jpg"));
         // Create buttons for navigation
         Button button1 = new Button("Ranked Mode");
         Button button2 = new Button("Goofy Fun Mode");
@@ -93,17 +99,30 @@ public class RainbowChooserizer extends Application {
         List<String> selectedOperators = operators.subList(0, 5);
         List<String> selectedStrats = strats.subList(0, 2);
 
-        // Create layout for displaying selected options
-        VBox layout = new VBox(20);
+         // Create layout for displaying selected options
+        VBox layout = new VBox(10);
         layout.setAlignment(Pos.CENTER);
         Label title = new Label("Attack Operators and Strategies:");
+        title.getStyleClass().add("title-label"); // Add a CSS class for title label
         layout.getChildren().add(title);
+        
         for (String operator : selectedOperators) {
-            layout.getChildren().add(new Label(operator));
+            Label operatorLabel = new Label(operator);
+            operatorLabel.getStyleClass().add("operator-label"); // Add a CSS class for operator labels
+            operatorLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            layout.getChildren().add(operatorLabel);
         }
+    
         for (String strat : selectedStrats) {
-            layout.getChildren().add(new Label(strat));
+            Label stratLabel = new Label(strat);
+            stratLabel.getStyleClass().add("strat-label"); // Add a CSS class for strategy labels
+            stratLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            layout.getChildren().add(stratLabel);
         }
+    
+        // Apply the 'mainbg' class to the layout
+        layout.getStyleClass().add("mainbg");
+        
         Button backButton = new Button("Back to Choose Mode");
         backButton.setOnAction(e -> showOption1(stage)); // Navigate back to the mode selection
 
@@ -138,16 +157,29 @@ public class RainbowChooserizer extends Application {
         List<String> selectedStrats = strats.subList(0, 2);
 
         // Create layout for displaying selected options
-        VBox layout = new VBox(20);
+        VBox layout = new VBox(15);
         layout.setAlignment(Pos.CENTER);
         Label title = new Label("Defense Operators and Strategies:");
+        title.getStyleClass().add("title-label"); // Add a CSS class for title label
         layout.getChildren().add(title);
+       
         for (String operator : selectedOperators) {
-            layout.getChildren().add(new Label(operator));
+            Label operatorLabel = new Label(operator);
+            operatorLabel.getStyleClass().add("operator-label"); // Add a CSS class for operator labels
+            operatorLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            layout.getChildren().add(operatorLabel);
         }
+    
         for (String strat : selectedStrats) {
-            layout.getChildren().add(new Label(strat));
+            Label stratLabel = new Label(strat);
+            stratLabel.getStyleClass().add("strat-label"); // Add a CSS class for strategy labels
+            stratLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            layout.getChildren().add(stratLabel);
         }
+    
+        // Apply the 'mainbg' class to the layout
+        layout.getStyleClass().add("mainbg");
+        
         Button backButton = new Button("Back to Choose Mode");
         backButton.setOnAction(e -> showOption1(stage)); // Navigate back to the mode selection
 
@@ -190,3 +222,4 @@ public class RainbowChooserizer extends Application {
         stage.setScene(scene2);
     }
 }
+
