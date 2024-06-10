@@ -7,6 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+
 public class RainbowChooserizer extends Application {
 
     public static void main(String[] args) {
@@ -26,7 +27,7 @@ public class RainbowChooserizer extends Application {
         button2.setOnAction(e -> showOption2(primaryStage));
 
         // Layout for title page
-        VBox layout = new VBox(20);
+        VBox layout = new VBox(15);
         layout.setAlignment(Pos.CENTER); // Center the buttons
         layout.getChildren().addAll(button1, button2);
 
@@ -38,10 +39,7 @@ public class RainbowChooserizer extends Application {
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene.getStylesheets().add(css);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Error loading CSS file");
-        }
+        } catch (Exception e) {}
 
         primaryStage.setScene(scene);
         primaryStage.show();
@@ -63,10 +61,8 @@ public class RainbowChooserizer extends Application {
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene1.getStylesheets().add(css);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Error loading CSS file");
-        }
+        } catch (Exception e){}
+        
         stage.setScene(scene1);
     }
 
@@ -86,10 +82,8 @@ public class RainbowChooserizer extends Application {
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene2.getStylesheets().add(css);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Error loading CSS file");
-        }
+        } catch (Exception e) {}
+        
         stage.setScene(scene2);
     }
 }
