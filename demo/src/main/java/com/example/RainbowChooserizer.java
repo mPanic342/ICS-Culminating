@@ -26,7 +26,7 @@ public class RainbowChooserizer extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Rainbow Chooserizer");
 
-        primaryStage.getIcons().add(new Image("/resources/mainbg.jpg"));
+       // primaryStage.getIcons().add(new Image("/resources/mainbg.jpg"));
         // Create buttons for navigation
         Button button1 = new Button("Ranked Mode");
         Button button2 = new Button("Goofy Fun Mode");
@@ -103,20 +103,18 @@ public class RainbowChooserizer extends Application {
         VBox layout = new VBox(10);
         layout.setAlignment(Pos.CENTER);
         Label title = new Label("Attack Operators and Strategies:");
-        title.getStyleClass().add("title-label"); // Add a CSS class for title label
+        title.getStyleClass().add("title-label");
         layout.getChildren().add(title);
         
         for (String operator : selectedOperators) {
             Label operatorLabel = new Label(operator);
-            operatorLabel.getStyleClass().add("operator-label"); // Add a CSS class for operator labels
-            operatorLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            operatorLabel.getStyleClass().add("operator-label"); // CSS class for operator labels
             layout.getChildren().add(operatorLabel);
         }
     
         for (String strat : selectedStrats) {
             Label stratLabel = new Label(strat);
-            stratLabel.getStyleClass().add("strat-label"); // Add a CSS class for strategy labels
-            stratLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            stratLabel.getStyleClass().add("operator-label"); // Same CSS as operator label
             layout.getChildren().add(stratLabel);
         }
     
@@ -165,15 +163,13 @@ public class RainbowChooserizer extends Application {
        
         for (String operator : selectedOperators) {
             Label operatorLabel = new Label(operator);
-            operatorLabel.getStyleClass().add("operator-label"); // Add a CSS class for operator labels
-            operatorLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            operatorLabel.getStyleClass().add("operator-label"); // CSS class for operator labels
             layout.getChildren().add(operatorLabel);
         }
     
         for (String strat : selectedStrats) {
             Label stratLabel = new Label(strat);
-            stratLabel.getStyleClass().add("strat-label"); // Add a CSS class for strategy labels
-            stratLabel.setStyle("-fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);");
+            stratLabel.getStyleClass().add("operator-label"); // Same CSS as operator label
             layout.getChildren().add(stratLabel);
         }
     
