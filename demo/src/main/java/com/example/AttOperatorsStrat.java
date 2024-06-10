@@ -5,19 +5,18 @@ import java.util.List;
 
 public class AttOperatorsStrat {
     private List<String> operators;
+    private List<String> strats;
 
     public void AttOperators() {
         operators = Arrays.asList(
             "Striker", "Deimos", "Ram", "Brava", "Grim", "Sens",
-            "Osa", "Flores", "Zero", "Ace", "Iana", "Kali", "Amaur",
+            "Osa", "Flores", "Zero", "Ace", "Iana", "Kali", "Amaru",
             "Nokk", "Gridlock", "Nomad", "Maverick", "Lion", "Finka", "Dokkaebi",
             "Zofia", "Ying", "Jackal", "Hibana", "Capitao", "Blackbeard", "Buck",
-            "Sledge", "Thatcher", "Ash", "Thermite", "Montange", "Twitch", "Blitz", "Iq",
+            "Sledge", "Thatcher", "Ash", "Thermite", "Montagne", "Twitch", "Blitz", "IQ",
             "Fuze", "Glaz"
-
         );
     }
-    private List<String> strats;
 
     public void AttStrat() {
         strats = Arrays.asList(
@@ -31,15 +30,8 @@ public class AttOperatorsStrat {
         return operators;
     }
 
-    public void printAttOperators() {
-        operators.forEach(System.out::println);
-    }
-
     public List<String> getAttStrat() {
         return strats;
     }
-
-    public void printAttStrat() {
-        operators.forEach(System.out::println);
-    }
 }
+

@@ -5,6 +5,7 @@ import java.util.List;
 
 public class DefOperatorsStrat {
     private List<String> operators;
+    private List<String> strats;
 
     public void DefOperators() {
         operators = Arrays.asList(
@@ -14,12 +15,10 @@ public class DefOperatorsStrat {
             "Lesion", "Mira", "Echo", "Caveira", "Valkyrie", "Frost", "Mute",
             "Smoke", "Castle", "Pulse", "Doc", "Rook", "Jager", "Bandit", "Tachanka",
             "Kapkan"
-
         );
     }
-    private List<String> strats;
 
-    public void AttStrat() {
+    public void DefStrat() {
         strats = Arrays.asList(
             "Anchor - Stay on site and defend", "Roam - Move around the map to flank attackers",
             "Spawn Peek - Peek at attackers from spawn points", "Trade Kills - Ensure a teammate is ready to trade kills",
@@ -31,15 +30,7 @@ public class DefOperatorsStrat {
         return operators;
     }
 
-    public void printDefOperators() {
-        operators.forEach(System.out::println);
-    }
-
     public List<String> getDefStrat() {
         return strats;
-    }
-
-    public void printDefStrat() {
-        operators.forEach(System.out::println);
     }
 }

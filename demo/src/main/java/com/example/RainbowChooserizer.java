@@ -4,9 +4,12 @@ import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.util.Collections;
+import java.util.List;
 
 public class RainbowChooserizer extends Application {
 
@@ -19,8 +22,8 @@ public class RainbowChooserizer extends Application {
         primaryStage.setTitle("Rainbow Chooserizer");
 
         // Create buttons for navigation
-        Button button1 = new Button("Goofy Fun Mode");
-        Button button2 = new Button("Ranked Mode");
+        Button button1 = new Button("Ranked Mode");
+        Button button2 = new Button("Goofy Fun Mode");
 
         // Set actions for buttons
         button1.setOnAction(e -> showOption1(primaryStage));
@@ -39,20 +42,28 @@ public class RainbowChooserizer extends Application {
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene.getStylesheets().add(css);
-        } catch (Exception e) {}
+        } catch (Exception e) {
+            System.err.println("Error loading CSS file: " + e.getMessage());
+        }
 
         primaryStage.setScene(scene);
         primaryStage.show();
     }
 
     private void showOption1(Stage stage) {
-        // Create layout for Option 1
+        // Create layout for choosing between Attack and Defense
         VBox layout1 = new VBox(20);
-        layout1.setAlignment(Pos.CENTER); // Center the back button
+        layout1.setAlignment(Pos.CENTER); // Center the buttons
+        Button attackButton = new Button("Attack");
+        Button defenseButton = new Button("Defense");
         Button backButton = new Button("Back to Title Page");
+
+        // Set actions for buttons
+        attackButton.setOnAction(e -> showAttackOptions(stage));
+        defenseButton.setOnAction(e -> showDefenseOptions(stage));
         backButton.setOnAction(e -> start(stage)); // Navigate back to the title page
 
-        layout1.getChildren().add(backButton);
+        layout1.getChildren().addAll(attackButton, defenseButton, backButton);
 
         // Add CSS class to the layout
         layout1.getStyleClass().add("root");
@@ -61,9 +72,99 @@ public class RainbowChooserizer extends Application {
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene1.getStylesheets().add(css);
-        } catch (Exception e){}
-        
+        } catch (Exception e) {
+            System.err.println("Error loading CSS file: " + e.getMessage());
+        }
+
         stage.setScene(scene1);
+    }
+
+    private void showAttackOptions(Stage stage) {
+        // Get randomized attack operators and strategies
+        AttOperatorsStrat attackData = new AttOperatorsStrat();
+        attackData.AttOperators();
+        attackData.AttStrat();
+        List<String> operators = attackData.getAttOperators();
+        List<String> strats = attackData.getAttStrat();
+
+        Collections.shuffle(operators);
+        Collections.shuffle(strats);
+
+        List<String> selectedOperators = operators.subList(0, 5);
+        List<String> selectedStrats = strats.subList(0, 2);
+
+        // Create layout for displaying selected options
+        VBox layout = new VBox(20);
+        layout.setAlignment(Pos.CENTER);
+        Label title = new Label("Attack Operators and Strategies:");
+        layout.getChildren().add(title);
+        for (String operator : selectedOperators) {
+            layout.getChildren().add(new Label(operator));
+        }
+        for (String strat : selectedStrats) {
+            layout.getChildren().add(new Label(strat));
+        }
+        Button backButton = new Button("Back to Choose Mode");
+        backButton.setOnAction(e -> showOption1(stage)); // Navigate back to the mode selection
+
+        layout.getChildren().add(backButton);
+
+        // Add CSS class to the layout
+        layout.getStyleClass().add("root");
+
+        Scene scene = new Scene(layout, 300, 400);
+        try {
+            String css = getClass().getResource("/styles.css").toExternalForm();
+            scene.getStylesheets().add(css);
+        } catch (Exception e) {
+            System.err.println("Error loading CSS file: " + e.getMessage());
+        }
+
+        stage.setScene(scene);
+    }
+
+    private void showDefenseOptions(Stage stage) {
+        // Get randomized defense operators and strategies
+        DefOperatorsStrat defenseData = new DefOperatorsStrat();
+        defenseData.DefOperators();
+        defenseData.DefStrat();
+        List<String> operators = defenseData.getDefOperators();
+        List<String> strats = defenseData.getDefStrat();
+
+        Collections.shuffle(operators);
+        Collections.shuffle(strats);
+
+        List<String> selectedOperators = operators.subList(0, 5);
+        List<String> selectedStrats = strats.subList(0, 2);
+
+        // Create layout for displaying selected options
+        VBox layout = new VBox(20);
+        layout.setAlignment(Pos.CENTER);
+        Label title = new Label("Defense Operators and Strategies:");
+        layout.getChildren().add(title);
+        for (String operator : selectedOperators) {
+            layout.getChildren().add(new Label(operator));
+        }
+        for (String strat : selectedStrats) {
+            layout.getChildren().add(new Label(strat));
+        }
+        Button backButton = new Button("Back to Choose Mode");
+        backButton.setOnAction(e -> showOption1(stage)); // Navigate back to the mode selection
+
+        layout.getChildren().add(backButton);
+
+        // Add CSS class to the layout
+        layout.getStyleClass().add("root");
+
+        Scene scene = new Scene(layout, 300, 400);
+        try {
+            String css = getClass().getResource("/styles.css").toExternalForm();
+            scene.getStylesheets().add(css);
+        } catch (Exception e) {
+            System.err.println("Error loading CSS file: " + e.getMessage());
+        }
+
+        stage.setScene(scene);
     }
 
     private void showOption2(Stage stage) {
@@ -82,8 +183,10 @@ public class RainbowChooserizer extends Application {
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene2.getStylesheets().add(css);
-        } catch (Exception e) {}
-        
+        } catch (Exception e) {
+            System.err.println("Error loading CSS file: " + e.getMessage());
+        }
+
         stage.setScene(scene2);
     }
 }
