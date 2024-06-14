@@ -1,14 +1,13 @@
 package com.example;
-
 import java.util.Collections;
 import java.util.List;
-
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderStroke;
 import javafx.scene.layout.BorderStrokeStyle;
@@ -26,8 +25,16 @@ public class RainbowChooserizer extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Rainbow Chooserizer");
-
-       // primaryStage.getIcons().add(new Image("/resources/mainbg.jpg"));
+        // Setting image for ranked
+        Image RankedImg = new Image("https://fbi.cults3d.com/uploaders/20470091/illustration-file/4a3bc3b5-3a54-4c8d-bdfa-0232fc950341/Rainbow-Six-Symbol.png");
+        ImageView rview = new ImageView(RankedImg);
+        rview.setFitHeight(80);
+        rview.setPreserveRatio(true);
+        // Setting image for goofy
+        Image GoofyImg = new Image("https://static.vecteezy.com/system/resources/previews/027/460/355/original/coming-soon-label-on-a-transparent-background-free-png.png");
+        ImageView gview = new ImageView(GoofyImg);
+        gview.setFitHeight(80);
+        gview.setPreserveRatio(true);
         // Create buttons for navigation
         Button button1 = new Button("Ranked Mode");
         Button button2 = new Button("Goofy Fun Mode");
@@ -35,6 +42,10 @@ public class RainbowChooserizer extends Application {
         // Set actions for buttons
         button1.setOnAction(e -> showOption1(primaryStage));
         button2.setOnAction(e -> showOption2(primaryStage));
+
+        // Setting images to buttons
+            button1.setGraphic(rview);
+            button2.setGraphic(gview);
 
         // Layout for title page
         VBox layout = new VBox(15);
@@ -45,7 +56,7 @@ public class RainbowChooserizer extends Application {
         layout.getStyleClass().add("root");
 
         // Load CSS
-        Scene scene = new Scene(layout, 300, 200);
+        Scene scene = new Scene(layout, 700, 550);
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene.getStylesheets().add(css);
@@ -75,7 +86,7 @@ public class RainbowChooserizer extends Application {
         // Add CSS class to the layout
         layout1.getStyleClass().add("root");
 
-        Scene scene1 = new Scene(layout1, 300, 200);
+        Scene scene1 = new Scene(layout1, 700, 550);
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene1.getStylesheets().add(css);
@@ -104,7 +115,7 @@ public class RainbowChooserizer extends Application {
         VBox layout = new VBox(10);
         layout.setAlignment(Pos.CENTER);
         Label title = new Label("Attack Operators and Strategies:");
-        title.getStyleClass().add("title-label");
+        title.getStyleClass().add("title-label"); // Fetch CSS class
         layout.getChildren().add(title);
         
         for (String operator : selectedOperators) {
@@ -118,9 +129,6 @@ public class RainbowChooserizer extends Application {
             stratLabel.getStyleClass().add("operator-label"); // Same CSS as operator label
             layout.getChildren().add(stratLabel);
         }
-    
-        // Apply the 'mainbg' class to the layout
-        layout.getStyleClass().add("mainbg");
         
         Button backButton = new Button("Back to Choose Mode");
         backButton.setOnAction(e -> showOption1(stage)); // Navigate back to the mode selection
@@ -130,7 +138,7 @@ public class RainbowChooserizer extends Application {
         // Add CSS class to the layout
         layout.getStyleClass().add("root");
 
-        Scene scene = new Scene(layout, 300, 400);
+        Scene scene = new Scene(layout, 700, 550);
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene.getStylesheets().add(css);
@@ -185,7 +193,7 @@ public class RainbowChooserizer extends Application {
         // Add CSS class to the layout
         layout.getStyleClass().add("root");
 
-        Scene scene = new Scene(layout, 300, 400);
+        Scene scene = new Scene(layout, 700, 550);
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene.getStylesheets().add(css);
@@ -198,7 +206,7 @@ public class RainbowChooserizer extends Application {
 
     private void showOption2(Stage stage) {
         // Create layout for Option 2
-        VBox layout2 = new VBox(20);
+        VBox layout2 = new VBox(15);
         layout2.setAlignment(Pos.CENTER); // Center the back button
         Button backButton = new Button("Back to Title Page");
         backButton.setOnAction(e -> start(stage)); // Navigate back to the title page
@@ -208,7 +216,7 @@ public class RainbowChooserizer extends Application {
         // Add CSS class to the layout
         layout2.getStyleClass().add("root");
 
-        Scene scene2 = new Scene(layout2, 300, 200);
+        Scene scene2 = new Scene(layout2, 700, 550);
         try {
             String css = getClass().getResource("/styles.css").toExternalForm();
             scene2.getStylesheets().add(css);
