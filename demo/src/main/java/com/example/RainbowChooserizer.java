@@ -17,6 +17,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 
+@SuppressWarnings("unused")
 public class RainbowChooserizer extends Application {
 
     public static void main(String[] args) {
