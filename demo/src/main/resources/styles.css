@@ -1,29 +1,35 @@
-/* styles.css */
-
-/* Style for buttons */
+/* Styles for buttons */
 .button {
-    font-size: 14pt; /* Define font size for compatibility */
-    background-color: linear-gradient(rgb(0, 46, 172), rgb(0, 46, 172));
-    -fx-background-radius: 100;
+    font-size: 20pt;
+    background-color: linear-gradient(to bottom right, #00bfff, #1e90ff);
+    -fx-background-radius: 20;
     -fx-text-fill: #000000;
-    padding: 20 20 20 20;
-    -fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);
+    padding: 10 20 10 20;
+    -fx-effect: dropshadow(gaussian, rgb(0, 2, 116), 10, 0.5, 0, 0);
+    font-family: "sans-serif";
+    border-color: #0000001c;
+    border-width: 2;
+    border-radius: 20;
+    
+    
 }
 
-.title-label {
-    font-size: 14pt; /* Define font size for compatibility */
-    background-color: linear-gradient(rgb(0, 46, 172), rgb(0, 46, 172));
-    -fx-background-radius: 100;
-    -fx-text-fill: #000000;
-    padding: 20 20 20 20;
-    -fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);
+/* Styles for title and operator labels */
+.title-label, .operator-label {
+    font-size: 18pt;
+    -fx-text-fill: #ffffff;
+    padding: 10 20 10 20;
+    -fx-effect: dropshadow(gaussian, rgb(0, 2, 116), 10, 0.5, 0, 0);
+    font-family: "sans-serif";
+    background-color: #0000001c;
+    -fx-background-radius: 10;
 }
 
-.operator-label {
-    font-size: 14pt; /* Define font size for compatibility */
-    background-color: linear-gradient(rgb(0, 46, 172), rgb(0, 46, 172));
-    -fx-background-radius: 100;
-    -fx-text-fill: #000000;
-    padding: 20 20 20 20;
-    -fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);
+/* Root style */
+.root {
+    background-image: url('https://wallpaperswide.com/download/tom_clancys_rainbow_six_siege-wallpaper-1440x1080.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-width: 800; /* Minimum width to maintain application size */
+    min-height: 600; /* Minimum height to maintain application size */
 }
