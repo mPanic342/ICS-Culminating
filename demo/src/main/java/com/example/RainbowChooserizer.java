@@ -8,15 +8,20 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundImage;
+import javafx.scene.layout.BackgroundPosition;
+import javafx.scene.layout.BackgroundRepeat;
+import javafx.scene.layout.BackgroundSize;
 import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderStroke;
 import javafx.scene.layout.BorderStrokeStyle;
+import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 
-@SuppressWarnings("unused")
 public class RainbowChooserizer extends Application {
 
     public static void main(String[] args) {
@@ -25,19 +30,23 @@ public class RainbowChooserizer extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Rainbow Chooserizer");
+      
         // Setting image for ranked
         Image RankedImg = new Image("https://fbi.cults3d.com/uploaders/20470091/illustration-file/4a3bc3b5-3a54-4c8d-bdfa-0232fc950341/Rainbow-Six-Symbol.png");
         ImageView rview = new ImageView(RankedImg);
         rview.setFitHeight(80);
         rview.setPreserveRatio(true);
+      
         // Setting image for goofy
         Image GoofyImg = new Image("https://static.vecteezy.com/system/resources/previews/027/460/355/original/coming-soon-label-on-a-transparent-background-free-png.png");
         ImageView gview = new ImageView(GoofyImg);
         gview.setFitHeight(80);
         gview.setPreserveRatio(true);
+      
         // Create buttons for navigation
         Button button1 = new Button("Ranked Mode");
         Button button2 = new Button("Goofy Fun Mode");
+       
 
         // Set actions for buttons
         button1.setOnAction(e -> showOption1(primaryStage));
@@ -52,9 +61,14 @@ public class RainbowChooserizer extends Application {
         layout.setAlignment(Pos.CENTER); // Center the buttons
         layout.getChildren().addAll(button1, button2);
 
+          // Set background image
+          Image backgroundImage = new Image("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"); // Use your local path or URL
+          BackgroundImage bgImage = new BackgroundImage(backgroundImage, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
+          layout.setBackground(new Background(bgImage));
+
         // Add CSS class to the layout
         layout.getStyleClass().add("root");
-
+    
         // Load CSS
         Scene scene = new Scene(layout, 700, 550);
         try {

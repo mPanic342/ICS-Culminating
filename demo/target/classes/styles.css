@@ -19,14 +19,6 @@
     -fx-effect: dropshadow(gaussian, rgb(0, 46, 172), 10, 0, 0, 0);
 }
 
-/* Style for mainbg */
-.mainbg {
-    background-image: url('demo/src/main/resources/mainbg.jpg');
-    background-size: cover;
-    background-position: center center;
-}
-
-
 .operator-label {
     font-size: 14pt; /* Define font size for compatibility */
     background-color: linear-gradient(rgb(0, 46, 172), rgb(0, 46, 172));
